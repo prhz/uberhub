@@ -1,8 +1,8 @@
 'use client'
 
-import { vacancy } from '../lib/definitions'
-import { useState } from 'react'
 import Image from 'next/image'
+import { vacancy } from '../_lib/definitions'
+import { formatDate } from '../_lib/utils'
 
 export default function VacancyCard({ vacancy, search }: {vacancy: vacancy, search: string}) {
     return (
@@ -35,7 +35,7 @@ export default function VacancyCard({ vacancy, search }: {vacancy: vacancy, sear
             </div>
             <div className="flex items-center justify-between w-[100%]">
                 <div className="text-zinc-500 text-xs self-end">
-                    {`postado em: ${vacancy.date.getDate().toString().padStart(2, '0')}/${vacancy.date.getMonth().toString().padStart(2, '0')}/${vacancy.date.getFullYear()}`}
+                    {`postado em: ${formatDate(vacancy.date)}`}
                 </div>
                 <a href={vacancy.link} target="_blank" className="">
                     <div className="py-1 bg-[#5000b7] text-[#fafafa] rounded text-sm font-semibold px-2 flex gap-1">

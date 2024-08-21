@@ -1,4 +1,4 @@
-import { event, orderOption, vacancy } from "@/app/lib/definitions";
+import { event, orderOption, vacancy } from "@/app/_lib/definitions";
 
 export const vacancies: vacancy[] = [
     {
@@ -272,7 +272,33 @@ export const vacancies: vacancy[] = [
 ]
 
 export const events: event[] = [
-
+    {
+        id: 1,
+        featured_tier: 1,
+        advertiser: 'Pedro Rocha',
+        link: 'https://google.com',
+        tags: [
+            'tag0',
+            'tag1',
+            'tag2',
+            'tag3',
+            'tag4'
+        ],
+        state: 'accepted',
+        name: 'event name',
+        adress: 'youtube.com',
+        days: [
+            {
+                start: new Date(),
+                end: new Date()
+            }, 
+            {
+                start: new Date(),
+                end: new Date()
+            }
+        ],
+        type: 'online'
+    }
 ]
 
 export const tags: string[] = [...new Set(vacancies.map((a) => a.tags).flat())].sort()

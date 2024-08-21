@@ -16,12 +16,16 @@ export interface vacancy extends post {
     vacancies: string[]
 }
 
+export type eventDay = {
+    start: Date
+    end : Date
+}
+
 export interface event extends post {
     name: string
     adress?: string
 
-    date_start: Date
-    date_end: Date
+    days: eventDay[]
 
     type: 'online' | 'in-person'
 }
@@ -45,4 +49,10 @@ export type filterData = {
     setAdvertisers: Dispatch<SetStateAction<string[]>>,
     orderBool: boolean,
     setOrderBool: Dispatch<SetStateAction<boolean>>
+}
+
+export type navData = {
+    name: string,
+    svg: string,
+    href: string
 }

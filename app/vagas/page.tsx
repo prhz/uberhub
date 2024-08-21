@@ -1,12 +1,12 @@
 'use client'
 
-import { useState } from "react"
-import { vacancy, orderOption, filterData } from "../lib/definitions"
-import { vacancies, tags, orderOptions } from "../lib/placeholder-data"
-import VacancyCard from "../ui/VacancyCard"
-import FilterCard from "../ui/FilterCard"
-import Image from "next/image"
 import '@/app/globals.css'
+import Image from "next/image"
+import VacancyCard from "./card"
+import FilterCard from "./FilterCard"
+import { useState } from "react"
+import { vacancies, orderOptions } from "../_lib/placeholder-data"
+import { vacancy, orderOption, filterData } from "../_lib/definitions"
 
 export default function Home() {
     const [vacancySearch, setVacancySearch] = useState<string>('')
@@ -64,7 +64,7 @@ export default function Home() {
                         {
                             vacancies.filter(v => v.state === 'accepted')
                                 .filter(vac => advertisers.length === 0 || advertisers.includes(vac.advertiser))
-                                .filter(vac => vac.advertiser.toLowerCase().includes(vacancySearch.toLowerCase()) || vac.vacancies.some(v => v.toLowerCase().includes(vacancySearch.toLowerCase())))
+                                .filter(vac => vac.advertiser.toLowerCase().includes(vacancySearch.toLowerCase()) || vac.vacancies.some((v: string) => v.toLowerCase().includes(vacancySearch.toLowerCase())))
                                 .filter(vac => tagArr.length === 0 || tagArr.every(t => vac.tags.includes(t)))
                                 .sort(
                                     (a: vacancy, b: vacancy) => { 

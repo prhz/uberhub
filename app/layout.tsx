@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
-import Content from "./ui/Content"
+import Content from "./_ui/Content"
 import Image from "next/image"
 import "./globals.css"
 

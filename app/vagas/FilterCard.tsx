@@ -1,9 +1,9 @@
 'use client'
 
-import { filterData } from "../lib/definitions"
+import { filterData } from "../_lib/definitions"
 import Image from "next/image"
 import { useState } from "react"
-import { tags, orderOptions, advertisers } from "../lib/placeholder-data"
+import { tags, orderOptions, advertisers } from "../_lib/placeholder-data"
 
 export default function FilterCard({ data }: { data: filterData }) {
     const [tagSearch, setTagSearch] = useState<string>('')
@@ -73,30 +73,32 @@ export default function FilterCard({ data }: { data: filterData }) {
                     />
                 </div>
             </div>
-            <div className="w-full h-[1px] bg-zinc-400 my-3"></div>
+            <div className="w-full h-[1px] bg-zinc-400 mt-3 mb-2"></div>
             <div
-                className="flex flex-col gap-1 font-semibold text-zinc-800 font-bold"
+                className="flex flex-col gap-1 text-zinc-800 font-semibold"
             >
-                <div className="w-full flex items-center justify-between">
+                <div className="w-full flex items-center justify-between pr-2">
                     Order By
-                    <div
-                        className="transition-transform ease-out duration-200 cursor-pointer w-fit h-fit p-2 rounded text-xs select-none"
-                        onClick={() => {
-                            data.setOrderBool(!data.orderBool)
-                        }}
-                        style={
-                            {
-                                transform: (data.orderBool) ? 'rotate(180deg)' : 'rotate(0deg)'
+                    {(data.orderBy.name != "featured") && (
+                        <div
+                            className="transition-transform ease-out duration-200 cursor-pointer w-fit h-fit rounded text-xs select-none"
+                            onClick={() => {
+                                data.setOrderBool(!data.orderBool)
+                            }}
+                            style={
+                                {
+                                    transform: (data.orderBool) ? 'rotate(180deg)' : 'rotate(0deg)'
+                                }
                             }
-                        }
-                    >
-                        <Image
-                            src='/svg/arrow.svg'
-                            alt=''
-                            height={20}
-                            width={20}
-                        />
-                    </div>
+                        >
+                            <Image
+                                src='/svg/arrow.svg'
+                                alt=''
+                                height={20}
+                                width={20}
+                            />
+                        </div>
+                    )}
                 </div>
                 {
                     orderOptions.map(op => (
@@ -120,7 +122,7 @@ export default function FilterCard({ data }: { data: filterData }) {
             </div>
             <div className="w-full h-[1px] bg-zinc-400 my-3"></div>
             <div
-                className="flex flex-col gap-1 font-semibold text-zinc-800 font-bold"
+                className="flex flex-col gap-1 text-zinc-800 font-bold"
             >
                 Advertisers
                 {

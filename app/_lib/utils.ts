@@ -8,3 +8,8 @@ export function authVacancy(vac: vacancy): boolean {
            (vac.vacancies.some(v => v.length === 0)) ? false : // any vacancy is empty
                                                        true
 }
+
+export const formatDate = (date: Date) => {
+    const f = (n: number) => n.toString().padStart(2, '0')
+    return `${f(date.getDate())}/${f(date.getMonth())}/${date.getFullYear()}`
+}
