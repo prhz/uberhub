@@ -12,7 +12,7 @@ export type post = {
 }
 
 export interface vacancy extends post {
-    post_date: Date
+    date: Date
     vacancies: string[]
 }
 

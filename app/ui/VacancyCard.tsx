@@ -35,7 +35,7 @@ export default function VacancyCard({ vacancy, search }: {vacancy: vacancy, sear
             </div>
             <div className="flex items-center justify-between w-[100%]">
                 <div className="text-zinc-500 text-xs self-end">
-                    {`postado em: ${vacancy.post_date.getDate().toString().padStart(2, '0')}/${vacancy.post_date.getMonth().toString().padStart(2, '0')}/${vacancy.post_date.getFullYear()}`}
+                    {`postado em: ${vacancy.date.getDate().toString().padStart(2, '0')}/${vacancy.date.getMonth().toString().padStart(2, '0')}/${vacancy.date.getFullYear()}`}
                 </div>
                 <a href={vacancy.link} target="_blank" className="">
                     <div className="py-1 bg-[#5000b7] text-[#fafafa] rounded text-sm font-semibold px-2 flex gap-1">

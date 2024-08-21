@@ -20,7 +20,7 @@ export default function NavCard({
             <Image 
                 src={svg}
                 alt=''
-                className="group-hover:fill-[#5000b7]"
+                className=''
                 height={25}
                 width={25}
             />

@@ -6,7 +6,7 @@ export const vacancies: vacancy[] = [
         featured_tier: 3,
         advertiser: 'Valecard',
         link: 'https://valecard.gupy.io',
-        post_date: new Date(2024, 8, 10),
+        date: new Date(2024, 8, 10),
         vacancies: [
             'Especialista Dev Mobile - Fluter',
             'Especialista de TI',
@@ -27,7 +27,7 @@ export const vacancies: vacancy[] = [
         featured_tier: 1,
         advertiser: 'Nagro',
         link: 'https://bit.ly/4cU9oPm',
-        post_date: new Date(2024, 8, 11),
+        date: new Date(2024, 8, 11),
         vacancies: [
             'Estagiário de RevOps',
             'Tech Lead',
@@ -48,7 +48,7 @@ export const vacancies: vacancy[] = [
         featured_tier: 1,
         advertiser: 'GAIO DataOS',
         link: 'https://www.linkedin.com/jobs/view/3987039124/?eBP=BUDGET_EXHAUSTED_JOB&refId=/6psPwxbfV6Fmuc0jBrP6g%3D%3D&trackingId=hwQcmYYSx5SFh/lCLNpqiQ%3D%3D&trk=flagship3_search_srp_jobs',
-        post_date: new Date(2024, 8, 12),
+        date: new Date(2024, 8, 12),
         vacancies: [
             'Dev Pleno Full Stack ReactJS'
         ],
@@ -65,7 +65,7 @@ export const vacancies: vacancy[] = [
         featured_tier: 3,
         advertiser: 'Sankhya',
         link: 'https://sankhya.gupy.io',
-        post_date: new Date(2024, 8, 13),
+        date: new Date(2024, 8, 13),
         vacancies: [
             'Dev(a) Devops (Remoto)',
             'Dev(a) Front End - Sênior (remoto)',
@@ -106,7 +106,7 @@ export const vacancies: vacancy[] = [
         featured_tier: 1,
         advertiser: 'Chave7',
         link: 'https://www.linkedin.com/jobs/view/3985683177/?eBP=CwEAAAGRBYSdud5x3d53UNwwcTaV09J9AWfY2Aa6lRuKlcq83FoXT7To_OatdZdHHgamfQlLfJdsXajyp-bBKxdwPhcYvQl8haIi_TuvP5RWSLZdMkajClr4NuAyraB9OxrImYteM_vvKkA2PVRI8XQKiGLxLY8zbuxiDg0AV0f4bIV8uPaiwf5ri4Qtx6o4kVJysKSLUvaKbZrxBm_DIKYyp-3il6ohTUtXV2uzyJqtFFNaHFFIdCtwCN59fGOCUyyXrAvO_elHiDkDF2k9i9Ltcr2PB0dLGn76veSYUdLHJAtpoZfSNfHccFnLYbbUUcDA8tMEje2KRARTqOvqMwlQsxI9jqtgiW-QfNLgH_16960T-neZbfL4EuaU61M8nRcqBnAhnoD6ICqQE1a0jCJ1Kys6WWnz4G4JNOwGIxtKYGXxLzHiLYM9pyUqbl5xKln7gIgPOiljFE6T5zMXkMSNZjtfJErLqe6CEGwIHHT0Exiv&refId=nh%2B39uopB7w9BGDVoGL7nw%3D%3D&trackingId=U0oyCW7Spz2wlSuBQTibzw%3D%3D&trk=flagship3_search_srp_jobs&original_referer=',
-        post_date: new Date(2024, 8, 14),
+        date: new Date(2024, 8, 14),
         vacancies: [
             'Dev Mobile Sênior (Android e iOS)'
         ],
@@ -124,7 +124,7 @@ export const vacancies: vacancy[] = [
         featured_tier: 1,
         advertiser: 'Autus',
         link: 'https://www.glassdoor.com.br/job-listing/est%C3%A1gio-autus-chevrolet-JV_IC2508060_KO0,7_KE8,23.htm?jl=1009378927299&cs=1_702e9fc8&s=58&t=SR&pos=325&src=GD_JOB_AD&guid=00000191055ed8b6b603da06f80943a9&jobListingId=1009378927299&ea=1&ao=1136043&vt=w&jrtk=5-yul1-0-1i42ltm95ir14800-0a2a402545a6c514&cb=1722371987994&ctt=1722372011418',
-        post_date: new Date(2024, 8, 15),
+        date: new Date(2024, 8, 15),
         vacancies: [
             'Estágio de TI'
         ],
@@ -139,7 +139,7 @@ export const vacancies: vacancy[] = [
         featured_tier: 1,
         advertiser: 'Codenato',
         link: 'https://www.linkedin.com/posts/codenato_vem-pra-codenato-ugcPost-7223770505823084544-gHlw/?utm_source=share&utm_medium=member_desktop',
-        post_date: new Date(2024, 8, 16),
+        date: new Date(2024, 8, 16),
         vacancies: [
             'Dev Fullstack'
         ],
@@ -154,7 +154,7 @@ export const vacancies: vacancy[] = [
         featured_tier: 1,
         advertiser: 'Zup',
         link: 'https://www.linkedin.com/posts/codenato_vem-pra-codenato-ugcPost-7223770505823084544-gHlw/?utm_source=share&utm_medium=member_desktop',
-        post_date: new Date(2024, 8, 17),
+        date: new Date(2024, 8, 17),
         vacancies: [
             'Product Manager',
             'Engenheira de Software Staff | StackSpot',
@@ -227,7 +227,7 @@ export const vacancies: vacancy[] = [
         featured_tier: 1,
         advertiser: 'Azship',
         link: 'https://www.glassdoor.com.br/job-listing/analista-de-sucesso-do-cliente-azship-tecnologia-em-log%C3%ADstica-JV_IC2508060_KO0,30_KE31,61.htm?jl=1009385825760&src=GD_JOB_AD&ao=1110586&jrtk=5-yul1-0-1i42lsoigmskr800-e13e394b577d65ed---6NYlbfkN0DCjnmxLZI0d3IpbamVgiJdHzipXUalC_P_gNqWnl9wb8lLQfOX-ugwmjYLDbjulCnodBOov0Ij0qlETN54kpJiG7tRBc7SqHD69Iznjs5xLx3pXFy0XoMO8rWQdIADxfXhMZq6DeLQ__tTxTxtwdheNa5P6JnUMeWrZRIpsPX7q8xxXEqlEmOWv8PP03bUL2Dk04Uxtt2htEm1HnUY381AOwU6U-YHkeFrbHTOoio163HnTS23lWU7msrZZu06Urdwth41tsOE_bkJj-smT3hs0tsMi8UlWvS3Qy1zm7dG5lm3aNT0C0F-j6BqFtVp9dBqJ-F6EUePt1aD7JjNCJeIMsJT01ZVzlG4mL9HjrP3KwzI6b3krcOqcYDjO2BSIPdBYJHkxFqGl-zcFu8Q7PX_KjoXT3q5GyyJKMGElaLqj5rVa5kfIn_KydrOD1lzf9wZJdYL6lq7UTTtmDPbLyMa_m4jX0g5gSPf6miphEopUQR4PWseZ1R2cEStZV1cRNDDUqGLD53JINghdU3uoty61GMpwAGEzuTJ6xNPCNmWUcYYM7RIQJ1EhmA_HQ12j9Q2PIzcb2PAEcvJP_GIvIGwYImIhaxa-MyQLLG7up7mDy9V-En3ySxx&cs=1_af80f508&s=58&t=SR&pos=201&cpc=FB7E4A1762AE5BEC&guid=00000191055e6217b600ddd445b50e41&jobListingId=1009385825760&ea=1&vt=w&cb=1722371957636&ctt=1722371961434',
-        post_date: new Date(2024, 8, 18),
+        date: new Date(2024, 8, 18),
         vacancies: [
             'Analista de Sucesso do Cliente'
         ],
@@ -241,7 +241,7 @@ export const vacancies: vacancy[] = [
         featured_tier: 1,
         advertiser: 'TQI',
         link: 'https://www.glassdoor.com.br/job-listing/analista-de-sucesso-do-cliente-azship-tecnologia-em-log%C3%ADstica-JV_IC2508060_KO0,30_KE31,61.htm?jl=1009385825760&src=GD_JOB_AD&ao=1110586&jrtk=5-yul1-0-1i42lsoigmskr800-e13e394b577d65ed---6NYlbfkN0DCjnmxLZI0d3IpbamVgiJdHzipXUalC_P_gNqWnl9wb8lLQfOX-ugwmjYLDbjulCnodBOov0Ij0qlETN54kpJiG7tRBc7SqHD69Iznjs5xLx3pXFy0XoMO8rWQdIADxfXhMZq6DeLQ__tTxTxtwdheNa5P6JnUMeWrZRIpsPX7q8xxXEqlEmOWv8PP03bUL2Dk04Uxtt2htEm1HnUY381AOwU6U-YHkeFrbHTOoio163HnTS23lWU7msrZZu06Urdwth41tsOE_bkJj-smT3hs0tsMi8UlWvS3Qy1zm7dG5lm3aNT0C0F-j6BqFtVp9dBqJ-F6EUePt1aD7JjNCJeIMsJT01ZVzlG4mL9HjrP3KwzI6b3krcOqcYDjO2BSIPdBYJHkxFqGl-zcFu8Q7PX_KjoXT3q5GyyJKMGElaLqj5rVa5kfIn_KydrOD1lzf9wZJdYL6lq7UTTtmDPbLyMa_m4jX0g5gSPf6miphEopUQR4PWseZ1R2cEStZV1cRNDDUqGLD53JINghdU3uoty61GMpwAGEzuTJ6xNPCNmWUcYYM7RIQJ1EhmA_HQ12j9Q2PIzcb2PAEcvJP_GIvIGwYImIhaxa-MyQLLG7up7mDy9V-En3ySxx&cs=1_af80f508&s=58&t=SR&pos=201&cpc=FB7E4A1762AE5BEC&guid=00000191055e6217b600ddd445b50e41&jobListingId=1009385825760&ea=1&vt=w&cb=1722371957636&ctt=1722371961434',
-        post_date: new Date(2024, 8, 19),
+        date: new Date(2024, 8, 19),
         vacancies: [
             'Dev back-end PL (java, kotlin)',
             'Dev back-end SR (java, kotlin, python)',
