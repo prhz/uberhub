@@ -42,6 +42,7 @@ export default function Content({
                 className={`fixed ${nav ? 'nav-o' : 'nav-c'} min-h-full top-[50px] bg-[#5000b7] duration-300 flex flex-col items-center gap-1 p-2`}
             >
                <NavCard name='Vagas' href='/vagas' svg='/svg/vacancy.svg'/>
+               <NavCard name='Eventos' href='/eventos' svg='/svg/event.svg'/>
             </nav>
             <footer
                 className='w-full min-h-[100px] bg-zinc-200 mt-5'

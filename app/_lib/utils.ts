@@ -1,4 +1,4 @@
-import { vacancy } from "./definitions";
+import { vacancy, event } from "./definitions";
 
 export function authVacancy(vac: vacancy): boolean {
     return (vac.id < 1)                              ? false : // id is 0 or lower
@@ -12,4 +12,12 @@ export function authVacancy(vac: vacancy): boolean {
 export const formatDate = (date: Date) => {
     const f = (n: number) => n.toString().padStart(2, '0')
     return `${f(date.getDate())}/${f(date.getMonth())}/${date.getFullYear()}`
+}
+
+export const eventsByDate = (events: event[], [start, end]: [start: Date, end: Date]) => {
+    return events.filter((event) => (
+        event.days.some((day) => (
+            (day.start >= start) && (day.end <= end)
+        ))
+    ))
 }

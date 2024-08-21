@@ -1,11 +1,11 @@
 'use client'
 
-import { filterData } from "../_lib/definitions"
+import { vacfilterData } from "../_lib/definitions"
 import Image from "next/image"
 import { useState } from "react"
-import { tags, orderOptions, advertisers } from "../_lib/placeholder-data"
+import { vacancy_tags, vacOrderOptions, advertisers } from "../_lib/placeholder-data"
 
-export default function FilterCard({ data }: { data: filterData }) {
+export default function FilterCard({ data }: { data: vacfilterData }) {
     const [tagSearch, setTagSearch] = useState<string>('')
 
     return (
@@ -17,7 +17,7 @@ export default function FilterCard({ data }: { data: filterData }) {
             >
                 <input
                     type="text"
-                    placeholder="search..."
+                    placeholder="buscar..."
                     className="w-full focus:outline-none h-[25px] rounded text-zinc-800 text-sm pl-1 bg-transparent"
                     onChange={
                         (e) => {
@@ -36,7 +36,7 @@ export default function FilterCard({ data }: { data: filterData }) {
             </div>
             <div className='w-full h-fit flex flex-wrap gap-1 py-2 cursor-pointer'>
                 {
-                    tags.map(tag => (
+                    vacancy_tags.map(tag => (
                         <div
                             className='transition-colors ease-out duration-150 w-fit h-fit px-2 py-1 rounded text-xs select-none'
                             style={
@@ -78,8 +78,8 @@ export default function FilterCard({ data }: { data: filterData }) {
                 className="flex flex-col gap-1 text-zinc-800 font-semibold"
             >
                 <div className="w-full flex items-center justify-between pr-2">
-                    Order By
-                    {(data.orderBy.name != "featured") && (
+                    Ordenar Por
+                    {(data.orderBy.name != "em destaque") && (
                         <div
                             className="transition-transform ease-out duration-200 cursor-pointer w-fit h-fit rounded text-xs select-none"
                             onClick={() => {
@@ -101,7 +101,7 @@ export default function FilterCard({ data }: { data: filterData }) {
                     )}
                 </div>
                 {
-                    orderOptions.map(op => (
+                    vacOrderOptions.map(op => (
                         <div
                             className="transition-colors ease-out duration-200 cursor-pointer w-full rounded px-2 py-1 text-sm select-none"
                             style={
@@ -124,7 +124,7 @@ export default function FilterCard({ data }: { data: filterData }) {
             <div
                 className="flex flex-col gap-1 text-zinc-800 font-bold"
             >
-                Advertisers
+                Anunciantes
                 {
                     advertisers.map(adv => (
                         <div

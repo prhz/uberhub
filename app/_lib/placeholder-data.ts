@@ -274,44 +274,59 @@ export const vacancies: vacancy[] = [
 export const events: event[] = [
     {
         id: 1,
-        featured_tier: 1,
-        advertiser: 'Pedro Rocha',
+        featured_tier: 2,
+        advertiser: 'Advertiser',
         link: 'https://google.com',
         tags: [
             'tag0',
             'tag1',
             'tag2',
             'tag3',
-            'tag4'
+            'tag4',
+            'para mulheres (pcd)'
         ],
         state: 'accepted',
-        name: 'event name',
-        adress: 'youtube.com',
+        name: 'Event Name',
         days: [
             {
-                start: new Date(),
-                end: new Date()
+                start: new Date(2024, 0, 1, 14, 29, 0, 0),
+                end: new Date(2024, 0, 1, 16, 0, 0, 0)
             }, 
             {
-                start: new Date(),
-                end: new Date()
+                start: new Date(2024, 0, 2, 14, 29, 0, 0),
+                end: new Date(2024, 0, 2, 16, 0, 0, 0)
             }
         ],
-        type: 'online'
+        type: 'online',
+        adress: 'adress'
     }
 ]
 
-export const tags: string[] = [...new Set(vacancies.map((a) => a.tags).flat())].sort()
+export const vacancy_tags: string[] = [...new Set(vacancies.map((a) => a.tags).flat())].sort()
+export const event_tags: string[] = [...new Set(events.map((a) => a.tags).flat())].sort()
 
-export const orderOptions: orderOption[] = [
+export const vacOrderOptions: orderOption[] = [
     {
-        name: 'featured',
+        name: 'em destaque',
         value: 'featured_tier'
     },
     {
-        name: 'date',
+        name: 'data',
         value: 'date'
     }
 ]
+
+export const eventOrderOptions: orderOption[] = [
+    {
+        name: 'em destaque',
+        value: 'featured_tier'
+    },
+    {
+        name: 'data',
+        value: 'date'
+    }
+]
+
+export const event_types: string[] = ['presencial', 'online']
 
 export const advertisers: string[] = [...new Set(vacancies.map((a) => a.advertiser))].sort()

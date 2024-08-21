@@ -5,18 +5,18 @@ import Image from "next/image"
 import VacancyCard from "./card"
 import FilterCard from "./FilterCard"
 import { useState } from "react"
-import { vacancies, orderOptions } from "../_lib/placeholder-data"
-import { vacancy, orderOption, filterData } from "../_lib/definitions"
+import { vacancies, vacOrderOptions } from "../_lib/placeholder-data"
+import { vacancy, orderOption, vacfilterData } from "../_lib/definitions"
 
 export default function Home() {
     const [vacancySearch, setVacancySearch] = useState<string>('')
     const [tagSearch, setTagSearch] = useState<string>('')
     const [tagArr, setTagArr] = useState<string[]>([])
-    const [orderBy, setOrderBy] = useState<orderOption>(orderOptions[0])
+    const [orderBy, setOrderBy] = useState<orderOption>(vacOrderOptions[0])
     const [advertisers, setAdvertisers] = useState<string[]>([])
     const [orderBool, setOrderBool] = useState<boolean>(false)
 
-    const filterData: filterData = {
+    const filterData: vacfilterData = {
         tags: tagArr,
         setTags: setTagArr,
         orderBy: orderBy,
@@ -43,7 +43,7 @@ export default function Home() {
                             >
                                 <input
                                     type="text"
-                                    placeholder="search..."
+                                    placeholder="buscar..."
                                     className="w-full focus:outline-none h-[25px] rounded text-zinc-800 text-sm pl-1 bg-transparent"
                                     onChange={
                                         (e) => {

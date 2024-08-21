@@ -27,7 +27,7 @@ export interface event extends post {
 
     days: eventDay[]
 
-    type: 'online' | 'in-person'
+    type: 'online' | 'presencial'
 }
 
 export interface course extends post {
@@ -40,7 +40,7 @@ export interface course extends post {
 
 export type orderOption = { name: string, value: string }
 
-export type filterData = {
+export type vacfilterData = {
     tags: string[]
     setTags: Dispatch<SetStateAction<string[]>>
     orderBy: orderOption
@@ -49,6 +49,21 @@ export type filterData = {
     setAdvertisers: Dispatch<SetStateAction<string[]>>,
     orderBool: boolean,
     setOrderBool: Dispatch<SetStateAction<boolean>>
+}
+
+export type eventfilterData = {
+    tags: string[]
+    setTags: Dispatch<SetStateAction<string[]>>
+    orderBy: orderOption
+    setOrderBy: Dispatch<SetStateAction<orderOption>>,
+    date_start: Date,
+    setDate_start: Dispatch<SetStateAction<Date>>,
+    date_end: Date,
+    setDate_end: Dispatch<SetStateAction<Date>>,
+    orderBool: boolean,
+    setOrderBool: Dispatch<SetStateAction<boolean>>,
+    types: string[],
+    setTypes: Dispatch<SetStateAction<string[]>>
 }
 
 export type navData = {
