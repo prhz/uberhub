@@ -587,8 +587,5 @@
         <g id="SvgjsG5717" class="apexcharts-yaxis-annotations apexcharts-hidden-element-shown"></g>
         <g id="SvgjsG5718" class="apexcharts-xaxis-annotations apexcharts-hidden-element-shown"></g>
         <g id="SvgjsG5719" class="apexcharts-point-annotations apexcharts-hidden-element-shown"></g>
-    </g><text id="SvgjsText5475"  x="10" y="16.5" text-anchor="start"
-        dominant-baseline="auto" font-size="14px" font-weight="900" fill="#373d3f" class="apexcharts-title-text chart-title"
-        style="font-family: 'Inter', sans-serif; font-size: 16px; opacity: 1;"
-        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Total de Startups do Ecossistema: 269</text>
+    </g>
 </svg>

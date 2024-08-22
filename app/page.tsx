@@ -82,14 +82,44 @@ export default function Home() {
                         subtitle="Tech"
                     />
                 </div>
-                <div className="bg-[#fafafa] w-fit h-fit py-5 px-8 mt-10 rounded-lg shadow-lg flex-grow">
-                    <Image 
+                <div className="bg-[#fafafa] w-fit h-fit py-5 px-8 mt-5 rounded-lg shadow-lg flex-grow font-semibold">
+                    Total de Startups no Sistema: 269
+                    <Image
                         src='/svg/block_graph.svg'
                         alt=''
                         width={2000}
                         height={0}
                     />
                 </div>
+                <div className="flex flex-wrap gap-5">
+                    <div className="bg-[#fafafa] w-fit h-full py-5 px-8 mt-5 rounded-lg shadow-lg flex-grow font-semibold">
+                        Público Alvo
+                        <Image
+                            src='/svg/publico_alvo.svg'
+                            alt=''
+                            width={489}
+                            height={0}
+                        />
+                    </div>
+                    <div className="bg-[#fafafa] w-fit h-full py-5 px-8 mt-5 rounded-lg shadow-lg flex-grow font-semibold">
+                        Startups por Setor x Fase
+                        <Image
+                            src='/svg/startups-fase.svg'
+                            alt=''
+                            width={766}
+                            height={0}
+                        />
+                    </div>
+                </div>
+                <div className="bg-[#fafafa] w-fit h-fit py-5 px-8 mt-5 rounded-lg shadow-lg flex-grow font-semibold">
+                        Startups por Setor x Modelo de Negócio
+                        <Image
+                            src='/svg/startups-modelo.svg'
+                            alt=''
+                            width={2000}
+                            height={0}
+                        />
+                    </div>
             </div>
         </main>
     );
