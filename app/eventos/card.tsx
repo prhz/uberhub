@@ -51,6 +51,7 @@ export default function EventCard({ event, search }: { event: event, search: str
                 href={event.link}
                 target="_blank"
                 className='w-fit h-fit rounded text-sm text-[#5000b7] font-bold'
+                onClick={() => {event.visit_count++}}
             >
                 Saiba mais
             </a>

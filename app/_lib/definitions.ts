@@ -3,6 +3,7 @@ import { Dispatch, SetStateAction } from "react"
 export type post = {
     id: number
     featured_tier: 1 | 2 | 3
+    visit_count: number
 
     advertiser: string
     link: string

@@ -39,7 +39,7 @@ export default function VacancyCard({ vacancy, search }: {vacancy: vacancy, sear
                 <div className="text-zinc-500 text-xs self-end">
                     {`postado em: ${formatDate(vacancy.date)}`}
                 </div>
-                <a href={vacancy.link} target="_blank" className="">
+                <a href={vacancy.link} target="_blank" className="" onClick={() => {vacancy.visit_count++}}>
                     <div className="py-1 bg-[#5000b7] text-[#fafafa] rounded text-sm font-semibold px-2 flex gap-1">
                         link
                         <Image width={20} height={20} src="/svg/link.svg" alt="link svg" />
