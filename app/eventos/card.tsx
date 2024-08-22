@@ -10,7 +10,7 @@ export default function EventCard({ event, search }: { event: event, search: str
             <div className='text-xl font-bold'>{event.name}</div>
             <div className='flex gap-1 items-center'>
             <div className='font-semibold text-xs rounded bg-[#5000b7] h-fit w-fit px-2 py-1 text-[#fafafa]'>{event.type}</div>
-               {(event.featured_tier > 1) && (<div className="font-semibold text-xs rounded bg-[#fafafa] h-fit w-fit px-2 py-1 text-[#5000b7]">destaque</div>)}
+               {(event.featured_tier > 1) && (<div className="font-semibold text-sm rounded bg-[#fafafa] h-fit w-fit px-2 py-1 text-[#5000b7]">destaque</div>)}
             </div>
             </div>
             <div className='font-semibold'>{event.advertiser}</div>
