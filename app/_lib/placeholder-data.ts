@@ -218,7 +218,8 @@ export const vacancies: vacancy[] = [
             'Automação',
             'Cloud Solution Architect',
             'Engenharia de Dados',
-            'Pleno'
+            'Pleno',
+            'Vagas Afirmativas'
         ],
         state: 'accepted'
     },
