@@ -17,7 +17,7 @@ export const formatDate = (date: Date) => {
 export const eventsByDate = (events: event[], [start, end]: [start: Date, end: Date]) => {
     return events.filter((event) => (
         event.days.some((day) => (
-            (day.start >= start) && (day.end <= end)
+            (day.start >= start) && (day.end == undefined || day.end <= end)
         ))
     ))
 }
