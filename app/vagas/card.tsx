@@ -6,7 +6,9 @@ import { formatDate } from '../_lib/utils'
 
 export default function VacancyCard({ vacancy, search }: {vacancy: vacancy, search: string}) {
     return (
-        <div className="h-fit w-[100%] bg-[#FAFAFA] px-8 py-6 rounded-md shadow">
+        <div className="h-fit w-[100%] bg-[#FAFAFA] rounded-md shadow flex">
+            <div className='h-full w-2 rounded-l bg-[#5000b7]'></div>
+            <div className='px-8 py-6 w-full'>
             <div className="flex justify-between items-center mb-2">
                 <div className="text-zinc-800 font-bold text-2xl py-1">
                     {vacancy.advertiser}
@@ -43,6 +45,7 @@ export default function VacancyCard({ vacancy, search }: {vacancy: vacancy, sear
                         <Image width={20} height={20} src="/svg/link.svg" alt="link svg" />
                     </div>
                 </a>
+            </div>
             </div>
         </div>
     )
