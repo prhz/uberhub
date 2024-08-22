@@ -1,0 +1,13 @@
+﻿category,Adtech (advertising),Agronegócio,Autotech (Automotivo),Beauty Tech (moda e beleza),Big data,CRM,Casa e família,Cloud computing,Comunicação e mídia,Construção civil,Desenvolvimento de software,E-commerce / marketplace,Educação,Entretenimento,Eventstech (Eventos),Finanças,Fleettech,Foodtech (Alimentação),Games,Gestão,Govtech (gestão pública),Greentech (gestão de resíduos),HRtech (Recursos humanos),Hardware,Imobiliário,Impressão 3D,Indústria,Insurtech (seguros),Inteligência Artificial,Lawtech (direito),Logística e mobilidade urbana,Martech,Meio ambiente,Outros,Pettech (animal),Retailtech (varejo),Salestech (vendas),Saúde e bem-estar,Serviços profissionais,SexTech,Smart Cities,Social tech (impacto social),Tecnologia da Informação,Óleo e gás
+API (Application programming interface),0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+Clube de assinatura recorrente,1,1,1,0,0,0,0,0,2,1,1,0,4,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0
+Consumer,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Hardware,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Licenciamento,0,4,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,0,0,3,0,0,0,0,0,0
+Marketplace,0,3,0,0,0,0,0,0,0,0,0,3,0,2,1,4,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0,0,4,0,0,0,1,0,0
+Nenhum,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Outros,0,1,0,0,0,0,1,1,1,0,2,0,2,0,0,3,1,0,0,1,0,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,1,1,0,0,1,0,1
+PaaS (Plataform as a service),0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SaaS (Software as a service),1,20,0,1,0,7,0,0,2,1,12,1,4,1,3,5,2,2,1,17,3,1,2,0,0,0,2,1,2,4,5,11,0,0,2,4,1,7,0,0,0,0,1,0
+Taxa sobre transações,0,7,0,0,0,0,0,0,0,0,0,2,1,0,0,11,0,0,0,0,0,0,1,0,0,0,0,0,0,3,0,1,0,0,0,2,0,2,1,2,0,1,0,0
+Venda direta - Vendas de produtos,0,4,0,0,0,0,1,0,0,0,0,1,2,0,0,4,0,1,0,1,0,0,1,0,0,1,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0

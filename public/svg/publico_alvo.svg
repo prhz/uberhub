@@ -1,0 +1,166 @@
+<svg id="SvgjsSvg13271" width="545" height="363.70000000000005" xmlns="http://www.w3.org/2000/svg" version="1.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg"
+    xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;">
+    <foreignObject x="0" y="0" width="545" height="363.70000000000005">
+        <div class="apexcharts-legend" xmlns="http://www.w3.org/1999/xhtml"></div>
+    </foreignObject>
+    <g id="SvgjsG13273" class="apexcharts-inner apexcharts-graphical" transform="translate(93, 0)">
+        <defs id="SvgjsDefs13272">
+            <clipPath id="gridRectMaskd8no6yct">
+                <rect id="SvgjsRect13274" width="367" height="385" x="-3" y="-1" rx="0" ry="0" opacity="1"
+                    stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect>
+            </clipPath>
+            <clipPath id="forecastMaskd8no6yct"></clipPath>
+            <clipPath id="nonForecastMaskd8no6yct"></clipPath>
+            <clipPath id="gridRectMarkerMaskd8no6yct">
+                <rect id="SvgjsRect13275" width="365" height="387" x="-2" y="-2" rx="0" ry="0" opacity="1"
+                    stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect>
+            </clipPath>
+        </defs>
+        <g id="SvgjsG13276" class="apexcharts-radialbar">
+            <g id="SvgjsG13277">
+                <g id="SvgjsG13278" class="apexcharts-tracks">
+                    <g id="SvgjsG13279" class="apexcharts-radialbar-track apexcharts-track" rel="1">
+                        <path id="apexcharts-radialbarTrack-0"
+                            d="M 180.5 26.127177700348398 A 154.3728222996516 154.3728222996516 0 1 1 180.4730568598895 26.127180051580922"
+                            fill="none" fill-opacity="1" stroke="rgba(242,242,242,0.85)" stroke-opacity="1"
+                            stroke-linecap="butt" stroke-width="3.574912891986064" stroke-dasharray="0"
+                            class="apexcharts-radialbar-area"
+                            data:pathOrig="M 180.5 26.127177700348398 A 154.3728222996516 154.3728222996516 0 1 1 180.4730568598895 26.127180051580922">
+                        </path>
+                    </g>
+                    <g id="SvgjsG13281" class="apexcharts-radialbar-track apexcharts-track" rel="2">
+                        <path id="apexcharts-radialbarTrack-1"
+                            d="M 180.5 38.27700348432052 A 142.22299651567948 142.22299651567948 0 1 1 180.4751774045135 38.27700565050063"
+                            fill="none" fill-opacity="1" stroke="rgba(242,242,242,0.85)" stroke-opacity="1"
+                            stroke-linecap="butt" stroke-width="3.574912891986064" stroke-dasharray="0"
+                            class="apexcharts-radialbar-area"
+                            data:pathOrig="M 180.5 38.27700348432052 A 142.22299651567948 142.22299651567948 0 1 1 180.4751774045135 38.27700565050063">
+                        </path>
+                    </g>
+                    <g id="SvgjsG13283" class="apexcharts-radialbar-track apexcharts-track" rel="3">
+                        <path id="apexcharts-radialbarTrack-2"
+                            d="M 180.5 50.426829268292636 A 130.07317073170736 130.07317073170736 0 1 1 180.47729794913747 50.4268312494203"
+                            fill="none" fill-opacity="1" stroke="rgba(242,242,242,0.85)" stroke-opacity="1"
+                            stroke-linecap="butt" stroke-width="3.574912891986064" stroke-dasharray="0"
+                            class="apexcharts-radialbar-area"
+                            data:pathOrig="M 180.5 50.426829268292636 A 130.07317073170736 130.07317073170736 0 1 1 180.47729794913747 50.4268312494203">
+                        </path>
+                    </g>
+                    <g id="SvgjsG13285" class="apexcharts-radialbar-track apexcharts-track" rel="4">
+                        <path id="apexcharts-radialbarTrack-3"
+                            d="M 180.5 62.57665505226477 A 117.92334494773523 117.92334494773523 0 1 1 180.47941849376144 62.57665684834001"
+                            fill="none" fill-opacity="1" stroke="rgba(242,242,242,0.85)" stroke-opacity="1"
+                            stroke-linecap="butt" stroke-width="3.574912891986064" stroke-dasharray="0"
+                            class="apexcharts-radialbar-area"
+                            data:pathOrig="M 180.5 62.57665505226477 A 117.92334494773523 117.92334494773523 0 1 1 180.47941849376144 62.57665684834001">
+                        </path>
+                    </g>
+                    <g id="SvgjsG13287" class="apexcharts-radialbar-track apexcharts-track" rel="5">
+                        <path id="apexcharts-radialbarTrack-4"
+                            d="M 180.5 74.7264808362369 A 105.7735191637631 105.7735191637631 0 1 1 180.48153903838542 74.72648244725971"
+                            fill="none" fill-opacity="1" stroke="rgba(242,242,242,0.85)" stroke-opacity="1"
+                            stroke-linecap="butt" stroke-width="3.574912891986064" stroke-dasharray="0"
+                            class="apexcharts-radialbar-area"
+                            data:pathOrig="M 180.5 74.7264808362369 A 105.7735191637631 105.7735191637631 0 1 1 180.48153903838542 74.72648244725971">
+                        </path>
+                    </g>
+                    <g id="SvgjsG13289" class="apexcharts-radialbar-track apexcharts-track" rel="6">
+                        <path id="apexcharts-radialbarTrack-5"
+                            d="M 180.5 86.87630662020904 A 93.62369337979096 93.62369337979096 0 1 1 180.4836595830094 86.87630804617942"
+                            fill="none" fill-opacity="1" stroke="rgba(242,242,242,0.85)" stroke-opacity="1"
+                            stroke-linecap="butt" stroke-width="3.574912891986064" stroke-dasharray="0"
+                            class="apexcharts-radialbar-area"
+                            data:pathOrig="M 180.5 86.87630662020904 A 93.62369337979096 93.62369337979096 0 1 1 180.4836595830094 86.87630804617942">
+                        </path>
+                    </g>
+                </g>
+                <g id="SvgjsG13291">
+                    <g id="SvgjsG13296" class="apexcharts-series apexcharts-radial-series"
+                        seriesName="ConsumidorxfinalxB2C" rel="1" data:realIndex="0">
+                        <path id="SvgjsPath13297"
+                            d="M 180.5 26.127177700348398 A 154.3728222996516 154.3728222996516 0 0 1 295.2213640863274 77.20441980930585"
+                            fill="none" fill-opacity="0.85" stroke="rgba(0,143,251,0.85)" stroke-opacity="1"
+                            stroke-linecap="butt" stroke-width="7.149825783972128" stroke-dasharray="0"
+                            class="apexcharts-radialbar-area apexcharts-radialbar-slice-0" data:angle="48"
+                            data:value="13.38" index="0" j="0"
+                            data:pathOrig="M 180.5 26.127177700348398 A 154.3728222996516 154.3728222996516 0 0 1 295.2213640863274 77.20441980930585">
+                        </path>
+                    </g>
+                    <g id="SvgjsG13298" class="apexcharts-series apexcharts-radial-series" seriesName="EmpresasxB2B"
+                        rel="2" data:realIndex="1">
+                        <path id="SvgjsPath13299"
+                            d="M 180.5 38.27700348432052 A 142.22299651567948 142.22299651567948 0 1 1 168.10444910287833 322.1817950756407"
+                            fill="none" fill-opacity="0.85" stroke="rgba(0,227,150,0.85)" stroke-opacity="1"
+                            stroke-linecap="butt" stroke-width="7.149825783972128" stroke-dasharray="0"
+                            class="apexcharts-radialbar-area apexcharts-radialbar-slice-1" data:angle="185"
+                            data:value="51.3" index="0" j="1"
+                            data:pathOrig="M 180.5 38.27700348432052 A 142.22299651567948 142.22299651567948 0 1 1 168.10444910287833 322.1817950756407">
+                        </path>
+                    </g>
+                    <g id="SvgjsG13300" class="apexcharts-series apexcharts-radial-series"
+                        seriesName="EmpresasxexconsumidorxfinalxB2B2C" rel="3" data:realIndex="2">
+                        <path id="SvgjsPath13301"
+                            d="M 180.5 50.426829268292636 A 130.07317073170736 130.07317073170736 0 0 1 299.32775428312175 233.40552481764007"
+                            fill="none" fill-opacity="0.85" stroke="rgba(254,176,25,0.85)" stroke-opacity="1"
+                            stroke-linecap="butt" stroke-width="7.149825783972128" stroke-dasharray="0"
+                            class="apexcharts-radialbar-area apexcharts-radialbar-slice-2" data:angle="114"
+                            data:value="31.6" index="0" j="2"
+                            data:pathOrig="M 180.5 50.426829268292636 A 130.07317073170736 130.07317073170736 0 0 1 299.32775428312175 233.40552481764007">
+                        </path>
+                    </g>
+                    <g id="SvgjsG13302" class="apexcharts-series apexcharts-radial-series" seriesName="GovernoxB2G"
+                        rel="4" data:realIndex="3">
+                        <path id="SvgjsPath13303"
+                            d="M 180.5 62.57665505226477 A 117.92334494773523 117.92334494773523 0 0 1 194.8712406209192 63.45563778345327"
+                            fill="none" fill-opacity="0.85" stroke="rgba(255,69,96,0.85)" stroke-opacity="1"
+                            stroke-linecap="butt" stroke-width="7.149825783972128" stroke-dasharray="0"
+                            class="apexcharts-radialbar-area apexcharts-radialbar-slice-3" data:angle="7"
+                            data:value="1.86" index="0" j="3"
+                            data:pathOrig="M 180.5 62.57665505226477 A 117.92334494773523 117.92334494773523 0 0 1 194.8712406209192 63.45563778345327">
+                        </path>
+                    </g>
+                    <g id="SvgjsG13304" class="apexcharts-series apexcharts-radial-series" seriesName="Peer-to-peerxP2P"
+                        rel="5" data:realIndex="4">
+                        <path id="SvgjsPath13305"
+                            d="M 180.5 74.7264808362369 A 105.7735191637631 105.7735191637631 0 0 1 189.71876962575143 75.12898101055356"
+                            fill="none" fill-opacity="0.85" stroke="rgba(119,93,208,0.85)" stroke-opacity="1"
+                            stroke-linecap="butt" stroke-width="7.149825783972128" stroke-dasharray="0"
+                            class="apexcharts-radialbar-area apexcharts-radialbar-slice-4" data:angle="5"
+                            data:value="1.49" index="0" j="4"
+                            data:pathOrig="M 180.5 74.7264808362369 A 105.7735191637631 105.7735191637631 0 0 1 189.71876962575143 75.12898101055356">
+                        </path>
+                    </g>
+                    <g id="SvgjsG13306" class="apexcharts-series apexcharts-radial-series" seriesName="StartupsxB2S"
+                        rel="6" data:realIndex="5">
+                        <path id="SvgjsPath13307"
+                            d="M 180.5 86.87630662020904 A 93.62369337979096 93.62369337979096 0 0 1 182.13395874902372 86.89056596218731"
+                            fill="none" fill-opacity="0.85" stroke="rgba(0,143,251,0.85)" stroke-opacity="1"
+                            stroke-linecap="butt" stroke-width="7.149825783972128" stroke-dasharray="0"
+                            class="apexcharts-radialbar-area apexcharts-radialbar-slice-5" data:angle="1"
+                            data:value="0.37" index="0" j="5"
+                            data:pathOrig="M 180.5 86.87630662020904 A 93.62369337979096 93.62369337979096 0 0 1 182.13395874902372 86.89056596218731">
+                        </path>
+                    </g>
+                    <circle id="SvgjsCircle13292" r="86.83623693379792" cx="180.5" cy="180.5"
+                        class="apexcharts-radialbar-hollow" fill="transparent"></circle>
+                    <g id="SvgjsG13293" class="apexcharts-datalabels-group" transform="translate(0, 0) scale(1)"
+                        style="opacity: 1;"><text id="SvgjsText13294" font-family="Helvetica, Arial, sans-serif"
+                            x="180.5" y="180.5" text-anchor="middle" dominant-baseline="auto" font-size="14px"
+                            font-weight="600" fill="#373d3f" class="apexcharts-text apexcharts-datalabel-label"
+                            style="font-family: Helvetica, Arial, sans-serif; fill: rgb(0, 227, 150);"
+                            svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Total Startup Ecossistema</text><text
+                            id="SvgjsText13295" font-family="Helvetica, Arial, sans-serif" x="180.5" y="204.5"
+                            text-anchor="middle" dominant-baseline="auto" font-size="18px" font-weight="400"
+                            fill="#373d3f" class="apexcharts-text apexcharts-datalabel-value"
+                            style="font-family: Helvetica, Arial, sans-serif;"
+                            svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">269</text></g>
+                </g>
+            </g>
+        </g>
+        <line id="SvgjsLine13308" x1="0" y1="-100" x2="361" y2="-100" stroke="#b6b6b6" stroke-dasharray="0"
+            stroke-width="1" stroke-linecap="butt" class="apexcharts-ycrosshairs" y="-100"></line>
+        <line id="SvgjsLine13309" x1="0" y1="0" x2="361" y2="0" stroke-dasharray="0" stroke-width="0"
+            stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"></line>
+    </g>
+</svg>

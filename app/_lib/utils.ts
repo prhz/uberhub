@@ -21,3 +21,4 @@ export const eventsByDate = (events: event[], [start, end]: [start: Date, end: D
         ))
     ))
 }
+

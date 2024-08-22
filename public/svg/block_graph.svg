@@ -1,0 +1,594 @@
+<svg id="SvgjsSvg5472" width="1464" height="400" xmlns="http://www.w3.org/2000/svg" version="1.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg"
+    xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;">
+    <foreignObject x="0" y="0" width="1464" height="400">
+        <div class="apexcharts-legend" xmlns="http://www.w3.org/1999/xhtml" style="max-height: 200px;"></div>
+    </foreignObject>
+    <g id="SvgjsG5474" class="apexcharts-inner apexcharts-graphical" transform="translate(0, 44)">
+        <defs id="SvgjsDefs5473">
+            <clipPath id="gridRectMaskt82t4764l">
+                <rect id="SvgjsRect5478" width="1470" height="358" x="-3" y="-1" rx="0" ry="0" opacity="1"
+                    stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect>
+            </clipPath>
+            <clipPath id="forecastMaskt82t4764l"></clipPath>
+            <clipPath id="nonForecastMaskt82t4764l"></clipPath>
+            <clipPath id="gridRectMarkerMaskt82t4764l">
+                <rect id="SvgjsRect5479" width="1468" height="360" x="-2" y="-2" rx="0" ry="0" opacity="1"
+                    stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect>
+            </clipPath>
+        </defs>
+        <line id="SvgjsLine5663" x1="0" y1="357" x2="0" y2="363" stroke="#e0e0e0" stroke-dasharray="0"
+            stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5664" x1="34.04651162790697" y1="357" x2="34.04651162790697" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5665" x1="68.09302325581395" y1="357" x2="68.09302325581395" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5666" x1="102.13953488372093" y1="357" x2="102.13953488372093" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5667" x1="136.1860465116279" y1="357" x2="136.1860465116279" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5668" x1="170.23255813953486" y1="357" x2="170.23255813953486" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5669" x1="204.27906976744183" y1="357" x2="204.27906976744183" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5670" x1="238.3255813953488" y1="357" x2="238.3255813953488" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5671" x1="272.3720930232558" y1="357" x2="272.3720930232558" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5672" x1="306.41860465116275" y1="357" x2="306.41860465116275" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5673" x1="340.4651162790697" y1="357" x2="340.4651162790697" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5674" x1="374.5116279069767" y1="357" x2="374.5116279069767" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5675" x1="408.55813953488365" y1="357" x2="408.55813953488365" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5676" x1="442.6046511627906" y1="357" x2="442.6046511627906" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5677" x1="476.6511627906976" y1="357" x2="476.6511627906976" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5678" x1="510.69767441860455" y1="357" x2="510.69767441860455" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5679" x1="544.7441860465116" y1="357" x2="544.7441860465116" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5680" x1="578.7906976744185" y1="357" x2="578.7906976744185" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5681" x1="612.8372093023255" y1="357" x2="612.8372093023255" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5682" x1="646.8837209302325" y1="357" x2="646.8837209302325" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5683" x1="680.9302325581394" y1="357" x2="680.9302325581394" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5684" x1="714.9767441860464" y1="357" x2="714.9767441860464" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5685" x1="749.0232558139534" y1="357" x2="749.0232558139534" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5686" x1="783.0697674418603" y1="357" x2="783.0697674418603" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5687" x1="817.1162790697673" y1="357" x2="817.1162790697673" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5688" x1="851.1627906976743" y1="357" x2="851.1627906976743" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5689" x1="885.2093023255812" y1="357" x2="885.2093023255812" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5690" x1="919.2558139534882" y1="357" x2="919.2558139534882" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5691" x1="953.3023255813952" y1="357" x2="953.3023255813952" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5692" x1="987.3488372093021" y1="357" x2="987.3488372093021" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5693" x1="1021.3953488372091" y1="357" x2="1021.3953488372091" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5694" x1="1055.4418604651162" y1="357" x2="1055.4418604651162" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5695" x1="1089.4883720930231" y1="357" x2="1089.4883720930231" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5696" x1="1123.53488372093" y1="357" x2="1123.53488372093" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5697" x1="1157.581395348837" y1="357" x2="1157.581395348837" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5698" x1="1191.627906976744" y1="357" x2="1191.627906976744" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5699" x1="1225.674418604651" y1="357" x2="1225.674418604651" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5700" x1="1259.720930232558" y1="357" x2="1259.720930232558" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5701" x1="1293.767441860465" y1="357" x2="1293.767441860465" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5702" x1="1327.813953488372" y1="357" x2="1327.813953488372" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5703" x1="1361.8604651162789" y1="357" x2="1361.8604651162789" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5704" x1="1395.9069767441858" y1="357" x2="1395.9069767441858" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5705" x1="1429.9534883720928" y1="357" x2="1429.9534883720928" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <line id="SvgjsLine5706" x1="1463.9999999999998" y1="357" x2="1463.9999999999998" y2="363" stroke="#e0e0e0"
+            stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line>
+        <g id="SvgjsG5659" class="apexcharts-grid">
+            <g id="SvgjsG5660" class="apexcharts-gridlines-horizontal" style="display: none;">
+                <line id="SvgjsLine5707" x1="0" y1="0" x2="1464" y2="0" stroke="#e0e0e0" stroke-dasharray="0"
+                    stroke-linecap="butt" class="apexcharts-gridline"></line>
+                <line id="SvgjsLine5708" x1="0" y1="71.2" x2="1464" y2="71.2" stroke="#e0e0e0" stroke-dasharray="0"
+                    stroke-linecap="butt" class="apexcharts-gridline"></line>
+                <line id="SvgjsLine5709" x1="0" y1="142.4" x2="1464" y2="142.4" stroke="#e0e0e0" stroke-dasharray="0"
+                    stroke-linecap="butt" class="apexcharts-gridline"></line>
+                <line id="SvgjsLine5710" x1="0" y1="213.60000000000002" x2="1464" y2="213.60000000000002"
+                    stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line>
+                <line id="SvgjsLine5711" x1="0" y1="284.8" x2="1464" y2="284.8" stroke="#e0e0e0" stroke-dasharray="0"
+                    stroke-linecap="butt" class="apexcharts-gridline"></line>
+                <line id="SvgjsLine5712" x1="0" y1="356" x2="1464" y2="356" stroke="#e0e0e0" stroke-dasharray="0"
+                    stroke-linecap="butt" class="apexcharts-gridline"></line>
+            </g>
+            <g id="SvgjsG5661" class="apexcharts-gridlines-vertical" style="display: none;"></g>
+            <line id="SvgjsLine5714" x1="0" y1="356" x2="1464" y2="356" stroke="transparent" stroke-dasharray="0"
+                stroke-linecap="butt"></line>
+            <line id="SvgjsLine5713" x1="0" y1="1" x2="0" y2="356" stroke="transparent" stroke-dasharray="0"
+                stroke-linecap="butt"></line>
+        </g>
+        <g id="SvgjsG5662" class="apexcharts-grid-borders" style="display: none;"></g>
+        <g id="SvgjsG5480" class="apexcharts-treemap">
+            <g id="SvgjsG5481" class="apexcharts-series apexcharts-treemap-series" seriesName="series-1" rel="1"
+                data:realIndex="0">
+                <rect id="SvgjsRect5483" width="244.907063197026" height="15.822222222222225" x="0" y="0" rx="0" ry="0"
+                    opacity="1" stroke="#ffffff" stroke-width="2" stroke-dasharray="0" fill="rgba(0,143,251,0.85)"
+                    cx="0" cy="0" index="0" i="0" j="0" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5484" class="apexcharts-data-labels"><text id="SvgjsText5485"
+                        font-family="Helvetica, Arial, sans-serif" x="122.453531598513" y="14.876482716056614"
+                        text-anchor="middle" dominant-baseline="auto" font-size="3.8961148148365043" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="122.453531598513" cy="14.876482716056614"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Adtech (advertising)</text></g>
+                <rect id="SvgjsRect5487" width="244.907063197026" height="340.1777777777778" x="0"
+                    y="15.822222222222223" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(0,227,150,0.85)" cx="0" cy="15.822222222222225" index="0" i="0"
+                    j="1" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5488" class="apexcharts-data-labels"><text id="SvgjsText5489"
+                        font-family="Helvetica, Arial, sans-serif" x="122.453531598513" y="196.24444444444447"
+                        text-anchor="middle" dominant-baseline="auto" font-size="14" font-weight="600" fill="#ffffff"
+                        class="apexcharts-datalabel" cx="122.453531598513" cy="196.24444444444447"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Agronegócio</text></g>
+                <rect id="SvgjsRect5491" width="70.75092936802974" height="27.384615384615383" x="244.907063197026"
+                    y="0" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2" stroke-dasharray="0"
+                    fill="rgba(254,176,25,0.85)" cx="244.907063197026" cy="0" index="0" i="0" j="2"
+                    class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5492" class="apexcharts-data-labels"><text id="SvgjsText5493"
+                        font-family="Helvetica, Arial, sans-serif" x="280.2825278810409" y="20.27729742759178"
+                        text-anchor="middle" dominant-baseline="auto" font-size="2.754969205852262" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="280.2825278810409" cy="20.27729742759178"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Autotech (Automotivo)</text></g>
+                <rect id="SvgjsRect5495" width="70.75092936802974" height="27.384615384615383" x="244.907063197026"
+                    y="27.384615384615383" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(255,69,96,0.85)" cx="244.907063197026" cy="27.384615384615383"
+                    index="0" i="0" j="3" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5496" class="apexcharts-data-labels"><text id="SvgjsText5497"
+                        font-family="Helvetica, Arial, sans-serif" x="280.2825278810409" y="47.661912812207156"
+                        text-anchor="middle" dominant-baseline="auto" font-size="2.754969205852262" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="280.2825278810409" cy="47.661912812207156"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Beauty Tech (moda e beleza)</text></g>
+                <rect id="SvgjsRect5499" width="70.75092936802974" height="54.76923076923077" x="244.907063197026"
+                    y="54.76923076923077" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(119,93,208,0.85)" cx="244.907063197026" cy="54.76923076923077"
+                    index="0" i="0" j="4" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5500" class="apexcharts-data-labels"><text id="SvgjsText5501"
+                        font-family="Helvetica, Arial, sans-serif" x="280.2825278810409" y="89.11921775879165"
+                        text-anchor="middle" dominant-baseline="auto" font-size="3.8961148148365043" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="280.2825278810409" cy="89.11921775879165"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Big data</text></g>
+                <rect id="SvgjsRect5503" width="70.75092936802974" height="191.69230769230768" x="244.907063197026"
+                    y="109.53846153846153" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(0,143,251,0.85)" cx="244.907063197026" cy="109.53846153846153"
+                    index="0" i="0" j="5" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5504" class="apexcharts-data-labels"><text id="SvgjsText5505"
+                        font-family="Helvetica, Arial, sans-serif" x="280.2825278810409" y="213.48093651405745"
+                        text-anchor="middle" dominant-baseline="auto" font-size="7.288963388326197" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="280.2825278810409" cy="213.48093651405745"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">CRM</text></g>
+                <rect id="SvgjsRect5507" width="70.75092936802974" height="54.769230769230774" x="244.907063197026"
+                    y="301.2307692307692" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(0,227,150,0.85)" cx="244.907063197026" cy="301.2307692307692"
+                    index="0" i="0" j="6" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5508" class="apexcharts-data-labels"><text id="SvgjsText5509"
+                        font-family="Helvetica, Arial, sans-serif" x="280.2825278810409" y="335.58075622033016"
+                        text-anchor="middle" dominant-baseline="auto" font-size="3.896114814836505" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="280.2825278810409" cy="335.58075622033016"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Casa e família</text></g>
+                <rect id="SvgjsRect5511" width="59.866171003717454" height="129.45454545454544" x="315.65799256505574"
+                    y="0" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2" stroke-dasharray="0"
+                    fill="rgba(254,176,25,0.85)" cx="315.65799256505574" cy="0" index="0" i="0" j="7"
+                    class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5512" class="apexcharts-data-labels"><text id="SvgjsText5513"
+                        font-family="Helvetica, Arial, sans-serif" x="345.59107806691446" y="72.23058553117423"
+                        text-anchor="middle" dominant-baseline="auto" font-size="5.509938411704523" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="345.59107806691446" cy="72.23058553117423"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Cloud computing</text></g>
+                <rect id="SvgjsRect5515" width="59.866171003717454" height="161.8181818181818" x="315.65799256505574"
+                    y="129.45454545454544" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(255,69,96,0.85)" cx="315.65799256505574" cy="129.45454545454544"
+                    index="0" i="0" j="8" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5516" class="apexcharts-data-labels"
+                    transform="rotate(-90 345.8709411621094 215.583740234375) translate(2.6666666666666665)"><text
+                        id="SvgjsText5517" font-family="Helvetica, Arial, sans-serif" x="345.59107806691446"
+                        y="218.08373583703775" text-anchor="middle" dominant-baseline="auto"
+                        font-size="6.160298420204269" font-weight="600" fill="#ffffff" class="apexcharts-datalabel"
+                        cx="345.59107806691446" cy="218.08373583703775"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Comunicação e mídia</text></g>
+                <rect id="SvgjsRect5519" width="59.866171003717454" height="64.72727272727275" x="315.65799256505574"
+                    y="291.27272727272725" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(119,93,208,0.85)" cx="315.65799256505574" cy="291.27272727272725"
+                    index="0" i="0" j="9" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5520" class="apexcharts-data-labels"><text id="SvgjsText5521"
+                        font-family="Helvetica, Arial, sans-serif" x="345.59107806691446" y="330.60173524130914"
+                        text-anchor="middle" dominant-baseline="auto" font-size="3.8961148148365043" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="345.59107806691446" cy="330.60173524130914"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Construção civil</text></g>
+                <rect id="SvgjsRect5523" width="136.05947955390332" height="242.08000000000004" x="375.5241635687732"
+                    y="0" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2" stroke-dasharray="0"
+                    fill="rgba(0,143,251,0.85)" cx="375.5241635687732" cy="0" index="0" i="0" j="10"
+                    class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5524" class="apexcharts-data-labels"
+                    transform="rotate(-90 443.55389404296875 126.49301147460938) translate(4)"><text id="SvgjsText5525"
+                        font-family="Helvetica, Arial, sans-serif" x="443.55390334572485" y="130.49300967701765"
+                        text-anchor="middle" dominant-baseline="auto" font-size="11.359029031052879" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="443.55390334572485" cy="130.49300967701765"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Desenvolvimento de software</text></g>
+                <rect id="SvgjsRect5527" width="136.05947955390332" height="113.92000000000002" x="375.5241635687732"
+                    y="242.08000000000004" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(0,227,150,0.85)" cx="375.5241635687732" cy="242.08000000000004"
+                    index="0" i="0" j="11" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5528" class="apexcharts-data-labels"><text id="SvgjsText5529"
+                        font-family="Helvetica, Arial, sans-serif" x="443.55390334572485" y="307.3040765432244"
+                        text-anchor="middle" dominant-baseline="auto" font-size="7.792229629673009" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="443.55390334572485" cy="307.3040765432244"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">E-commerce / marketplace</text></g>
+                <rect id="SvgjsRect5531" width="114.28996282527879" height="237.33333333333334" x="511.5836431226765"
+                    y="0" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2" stroke-dasharray="0"
+                    fill="rgba(254,176,25,0.85)" cx="511.5836431226765" cy="0" index="0" i="0" j="12"
+                    class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5532" class="apexcharts-data-labels"><text id="SvgjsText5533"
+                        font-family="Helvetica, Arial, sans-serif" x="568.7286245353159" y="127.76938362647063"
+                        text-anchor="middle" dominant-baseline="auto" font-size="10.308150879411855" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="568.7286245353159" cy="127.76938362647063"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Educação</text></g>
+                <rect id="SvgjsRect5535" width="114.28996282527879" height="50.85714285714286" x="511.5836431226765"
+                    y="237.33333333333334" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(255,69,96,0.85)" cx="511.5836431226765" cy="237.33333333333334"
+                    index="0" i="0" j="13" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5536" class="apexcharts-data-labels"><text id="SvgjsText5537"
+                        font-family="Helvetica, Arial, sans-serif" x="568.7286245353159" y="270.0191536411794"
+                        text-anchor="middle" dominant-baseline="auto" font-size="4.7717466378237985" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="568.7286245353159" cy="270.0191536411794"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Entretenimento</text></g>
+                <rect id="SvgjsRect5539" width="114.28996282527879" height="67.8095238095238" x="511.5836431226765"
+                    y="288.1904761904762" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(119,93,208,0.85)" cx="511.5836431226765" cy="288.1904761904762"
+                    index="0" i="0" j="14" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5540" class="apexcharts-data-labels"><text id="SvgjsText5541"
+                        font-family="Helvetica, Arial, sans-serif" x="568.7286245353159" y="329.5985508991396"
+                        text-anchor="middle" dominant-baseline="auto" font-size="5.509938411704523" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="568.7286245353159" cy="329.5985508991396"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Eventstech (Eventos)</text></g>
+                <rect id="SvgjsRect5543" width="163.27137546468396" height="356" x="625.8736059479553" y="0" rx="0"
+                    ry="0" opacity="1" stroke="#ffffff" stroke-width="2" stroke-dasharray="0"
+                    fill="rgba(0,143,251,0.85)" cx="625.8736059479553" cy="0" index="0" i="0" j="15"
+                    class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5544" class="apexcharts-data-labels"><text id="SvgjsText5545"
+                        font-family="Helvetica, Arial, sans-serif" x="707.5092936802973" y="188.33333333333331"
+                        text-anchor="middle" dominant-baseline="auto" font-size="14" font-weight="600" fill="#ffffff"
+                        class="apexcharts-datalabel" cx="707.5092936802973" cy="188.33333333333331"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Finanças</text></g>
+                <rect id="SvgjsRect5547" width="43.53903345724905" height="133.5" x="789.1449814126393" y="0" rx="0"
+                    ry="0" opacity="1" stroke="#ffffff" stroke-width="2" stroke-dasharray="0"
+                    fill="rgba(0,227,150,0.85)" cx="789.1449814126393" cy="0" index="0" i="0" j="16"
+                    class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5548" class="apexcharts-data-labels"><text id="SvgjsText5549"
+                        font-family="Helvetica, Arial, sans-serif" x="810.9144981412637" y="74.0072488792746"
+                        text-anchor="middle" dominant-baseline="auto" font-size="4.771746637823798" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="810.9144981412637" cy="74.0072488792746"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Fleettech</text></g>
+                <rect id="SvgjsRect5551" width="43.53903345724905" height="178" x="789.1449814126393" y="133.5" rx="0"
+                    ry="0" opacity="1" stroke="#ffffff" stroke-width="2" stroke-dasharray="0"
+                    fill="rgba(254,176,25,0.85)" cx="789.1449814126393" cy="133.5" index="0" i="0" j="17"
+                    class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5552" class="apexcharts-data-labels"
+                    transform="rotate(-90 810.9921264648438 228.00331115722656) translate(2.3333333333333335)"><text
+                        id="SvgjsText5553" font-family="Helvetica, Arial, sans-serif" x="810.9144981412637"
+                        y="230.0033128039015" text-anchor="middle" dominant-baseline="auto"
+                        font-size="5.509938411704523" font-weight="600" fill="#ffffff" class="apexcharts-datalabel"
+                        cx="810.9144981412637" cy="230.0033128039015" style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Foodtech (Alimentação)</text></g>
+                <rect id="SvgjsRect5555" width="43.53903345724905" height="44.5" x="789.1449814126393" y="311.5" rx="0"
+                    ry="0" opacity="1" stroke="#ffffff" stroke-width="2" stroke-dasharray="0"
+                    fill="rgba(255,69,96,0.85)" cx="789.1449814126393" cy="311.5" index="0" i="0" j="18"
+                    class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5556" class="apexcharts-data-labels"><text id="SvgjsText5557"
+                        font-family="Helvetica, Arial, sans-serif" x="810.9144981412637" y="340.3349897352841"
+                        text-anchor="middle" dominant-baseline="auto" font-size="2.7549692058522615" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="810.9144981412637" cy="340.3349897352841"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Games</text></g>
+                <rect id="SvgjsRect5559" width="119.73234200743491" height="307.45454545454544" x="832.6840148698883"
+                    y="0" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2" stroke-dasharray="0"
+                    fill="rgba(119,93,208,0.85)" cx="832.6840148698883" cy="0" index="0" i="0" j="19"
+                    class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5560" class="apexcharts-data-labels"><text id="SvgjsText5561"
+                        font-family="Helvetica, Arial, sans-serif" x="892.5501858736058" y="163.39681684756488"
+                        text-anchor="middle" dominant-baseline="auto" font-size="12.008632360876511" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="892.5501858736058" cy="163.39681684756488"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Gestão</text></g>
+                <rect id="SvgjsRect5563" width="119.73234200743491" height="48.54545454545456" x="832.6840148698883"
+                    y="307.45454545454544" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(0,143,251,0.85)" cx="832.6840148698883" cy="307.45454545454544"
+                    index="0" i="0" j="20" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5564" class="apexcharts-data-labels"><text id="SvgjsText5565"
+                        font-family="Helvetica, Arial, sans-serif" x="892.5501858736058" y="338.9845216065474"
+                        text-anchor="middle" dominant-baseline="auto" font-size="4.7717466378237985" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="892.5501858736058" cy="338.9845216065474"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Govtech (gestão pública)</text></g>
+                <rect id="SvgjsRect5567" width="70.75092936802969" height="27.384615384615383" x="952.4163568773232"
+                    y="0" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2" stroke-dasharray="0"
+                    fill="rgba(0,227,150,0.85)" cx="952.4163568773232" cy="0" index="0" i="0" j="21"
+                    class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5568" class="apexcharts-data-labels"><text id="SvgjsText5569"
+                        font-family="Helvetica, Arial, sans-serif" x="987.7918215613381" y="20.27729742759178"
+                        text-anchor="middle" dominant-baseline="auto" font-size="2.754969205852261" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="987.7918215613381" cy="20.27729742759178"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Greentech (gestão de resíduos)</text></g>
+                <rect id="SvgjsRect5571" width="70.75092936802969" height="136.92307692307693" x="952.4163568773232"
+                    y="27.384615384615387" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(254,176,25,0.85)" cx="952.4163568773232" cy="27.384615384615383"
+                    index="0" i="0" j="22" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5572" class="apexcharts-data-labels"
+                    transform="rotate(-90 987.7918701171875 101.06625366210938) translate(2.6666666666666665)"><text
+                        id="SvgjsText5573" font-family="Helvetica, Arial, sans-serif" x="987.7918215613381"
+                        y="103.56625331955529" text-anchor="middle" dominant-baseline="auto"
+                        font-size="6.160298420204267" font-weight="600" fill="#ffffff" class="apexcharts-datalabel"
+                        cx="987.7918215613381" cy="103.56625331955529"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">HRtech (Recursos humanos)</text></g>
+                <rect id="SvgjsRect5575" width="70.75092936802969" height="27.384615384615387" x="952.4163568773232"
+                    y="164.30769230769232" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(255,69,96,0.85)" cx="952.4163568773232" cy="164.30769230769232"
+                    index="0" i="0" j="23" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5576" class="apexcharts-data-labels"><text id="SvgjsText5577"
+                        font-family="Helvetica, Arial, sans-serif" x="987.7918215613381" y="184.58498973528407"
+                        text-anchor="middle" dominant-baseline="auto" font-size="2.754969205852261" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="987.7918215613381" cy="184.58498973528407"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Hardware</text></g>
+                <rect id="SvgjsRect5579" width="70.75092936802969" height="54.769230769230774" x="952.4163568773232"
+                    y="191.6923076923077" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(119,93,208,0.85)" cx="952.4163568773232" cy="191.6923076923077"
+                    index="0" i="0" j="24" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5580" class="apexcharts-data-labels"><text id="SvgjsText5581"
+                        font-family="Helvetica, Arial, sans-serif" x="987.7918215613381" y="226.04229468186858"
+                        text-anchor="middle" dominant-baseline="auto" font-size="3.896114814836503" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="987.7918215613381" cy="226.04229468186858"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Imobiliário</text></g>
+                <rect id="SvgjsRect5583" width="70.75092936802969" height="27.384615384615387" x="952.4163568773232"
+                    y="246.46153846153848" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(0,143,251,0.85)" cx="952.4163568773232" cy="246.46153846153848"
+                    index="0" i="0" j="25" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5584" class="apexcharts-data-labels"><text id="SvgjsText5585"
+                        font-family="Helvetica, Arial, sans-serif" x="987.7918215613381" y="266.7388358891303"
+                        text-anchor="middle" dominant-baseline="auto" font-size="2.754969205852261" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="987.7918215613381" cy="266.7388358891303"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Impressão 3D</text></g>
+                <rect id="SvgjsRect5587" width="70.75092936802969" height="82.15384615384613" x="952.4163568773232"
+                    y="273.84615384615387" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(0,227,150,0.85)" cx="952.4163568773232" cy="273.84615384615387"
+                    index="0" i="0" j="26" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5588" class="apexcharts-data-labels"><text id="SvgjsText5589"
+                        font-family="Helvetica, Arial, sans-serif" x="987.7918215613381" y="322.18032580235155"
+                        text-anchor="middle" dominant-baseline="auto" font-size="4.771746637823797" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="987.7918215613381" cy="322.18032580235155"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Indústria</text></g>
+                <rect id="SvgjsRect5591" width="76.19330855018598" height="101.71428571428571" x="1023.1672862453529"
+                    y="0" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2" stroke-dasharray="0"
+                    fill="rgba(254,176,25,0.85)" cx="1023.1672862453529" cy="0" index="0" i="0" j="27"
+                    class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5592" class="apexcharts-data-labels"><text id="SvgjsText5593"
+                        font-family="Helvetica, Arial, sans-serif" x="1061.2639405204459" y="58.36045566104436"
+                        text-anchor="middle" dominant-baseline="auto" font-size="5.509938411704527" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="1061.2639405204459" cy="58.36045566104436"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Insurtech (seguros)</text></g>
+                <rect id="SvgjsRect5595" width="76.19330855018598" height="76.28571428571429" x="1023.1672862453529"
+                    y="101.71428571428571" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(255,69,96,0.85)" cx="1023.1672862453529" cy="101.71428571428571"
+                    index="0" i="0" j="28" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5596" class="apexcharts-data-labels"><text id="SvgjsText5597"
+                        font-family="Helvetica, Arial, sans-serif" x="1061.2639405204459" y="147.11439173641745"
+                        text-anchor="middle" dominant-baseline="auto" font-size="4.771746637823802" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="1061.2639405204459" cy="147.11439173641745"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Inteligência Artificial</text></g>
+                <rect id="SvgjsRect5599" width="76.19330855018598" height="178" x="1023.1672862453529" y="178" rx="0"
+                    ry="0" opacity="1" stroke="#ffffff" stroke-width="2" stroke-dasharray="0"
+                    fill="rgba(119,93,208,0.85)" cx="1023.1672862453529" cy="178" index="0" i="0" j="29"
+                    class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5600" class="apexcharts-data-labels"><text id="SvgjsText5601"
+                        font-family="Helvetica, Arial, sans-serif" x="1061.2639405204459" y="275.09632112944206"
+                        text-anchor="middle" dominant-baseline="auto" font-size="7.288963388326201" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="1061.2639405204459" cy="275.09632112944206"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Lawtech (direito)</text></g>
+                <rect id="SvgjsRect5603" width="125.17472118959108" height="154.7826086956522" x="1099.3605947955389"
+                    y="0" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2" stroke-dasharray="0"
+                    fill="rgba(0,143,251,0.85)" cx="1099.3605947955389" cy="0" index="0" i="0" j="30"
+                    class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5604" class="apexcharts-data-labels"><text id="SvgjsText5605"
+                        font-family="Helvetica, Arial, sans-serif" x="1161.9479553903343" y="85.9619635391989"
+                        text-anchor="middle" dominant-baseline="auto" font-size="8.71197757411843" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="1161.9479553903343" cy="85.9619635391989"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Logística e mobilidade urbana</text></g>
+                <rect id="SvgjsRect5607" width="125.17472118959108" height="201.2173913043478" x="1099.3605947955389"
+                    y="154.7826086956522" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(0,227,150,0.85)" cx="1099.3605947955389" cy="154.7826086956522"
+                    index="0" i="0" j="31" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5608" class="apexcharts-data-labels"><text id="SvgjsText5609"
+                        font-family="Helvetica, Arial, sans-serif" x="1161.9479553903343" y="264.36903192583435"
+                        text-anchor="middle" dominant-baseline="auto" font-size="9.933182734024637" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="1161.9479553903343" cy="264.36903192583435"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Martech</text></g>
+                <rect id="SvgjsRect5611" width="59.866171003717454" height="32.36363636363637" x="1224.53531598513"
+                    y="0" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2" stroke-dasharray="0"
+                    fill="rgba(254,176,25,0.85)" cx="1224.53531598513" cy="0" index="0" i="0" j="32"
+                    class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5612" class="apexcharts-data-labels"><text id="SvgjsText5613"
+                        font-family="Helvetica, Arial, sans-serif" x="1254.4684014869886" y="22.766807917102273"
+                        text-anchor="middle" dominant-baseline="auto" font-size="2.754969205852262" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="1254.4684014869886" cy="22.766807917102273"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Meio ambiente</text></g>
+                <rect id="SvgjsRect5615" width="59.866171003717454" height="32.36363636363637" x="1284.4014869888474"
+                    y="0" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2" stroke-dasharray="0"
+                    fill="rgba(255,69,96,0.85)" cx="1284.4014869888474" cy="0" index="0" i="0" j="33"
+                    class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5616" class="apexcharts-data-labels"><text id="SvgjsText5617"
+                        font-family="Helvetica, Arial, sans-serif" x="1314.3345724907063" y="22.766807917102273"
+                        text-anchor="middle" dominant-baseline="auto" font-size="2.754969205852262" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="1314.3345724907063" cy="22.766807917102273"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Outros</text></g>
+                <rect id="SvgjsRect5619" width="119.73234200743491" height="32.36363636363637" x="1344.2676579925649"
+                    y="0" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2" stroke-dasharray="0"
+                    fill="rgba(119,93,208,0.85)" cx="1344.2676579925649" cy="0" index="0" i="0" j="34"
+                    class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5620" class="apexcharts-data-labels"><text id="SvgjsText5621"
+                        font-family="Helvetica, Arial, sans-serif" x="1404.1338289962823" y="23.147189786763686"
+                        text-anchor="middle" dominant-baseline="auto" font-size="3.896114814836504" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="1404.1338289962823" cy="23.147189786763686"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Pettech (animal)</text></g>
+                <rect id="SvgjsRect5623" width="209.5315985130112" height="64.72727272727272" x="1224.53531598513"
+                    y="32.36363636363637" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(0,143,251,0.85)" cx="1224.53531598513" cy="32.36363636363637"
+                    index="0" i="0" j="35" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5624" class="apexcharts-data-labels"><text id="SvgjsText5625"
+                        font-family="Helvetica, Arial, sans-serif" x="1329.3011152416357" y="72.82359385671481"
+                        text-anchor="middle" dominant-baseline="auto" font-size="7.288963388326197" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="1329.3011152416357" cy="72.82359385671481"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Retailtech (varejo)</text></g>
+                <rect id="SvgjsRect5627" width="29.93308550185884" height="64.72727272727272" x="1434.0669144981412"
+                    y="32.36363636363637" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(0,227,150,0.85)" cx="1434.0669144981412" cy="32.36363636363637"
+                    index="0" i="0" j="36" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5628" class="apexcharts-data-labels"
+                    transform="rotate(-90 1449.071533203125 70.81226348876953) translate(1.3333333333333333)"><text
+                        id="SvgjsText5629" font-family="Helvetica, Arial, sans-serif" x="1449.0334572490706"
+                        y="71.31226246255683" text-anchor="middle" dominant-baseline="auto"
+                        font-size="2.754969205852267" font-weight="600" fill="#ffffff" class="apexcharts-datalabel"
+                        cx="1449.0334572490706" cy="71.31226246255683"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Salestech (vendas)</text></g>
+                <rect id="SvgjsRect5631" width="239.46468401486982" height="178.00000000000003" x="1224.53531598513"
+                    y="97.0909090909091" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(254,176,25,0.85)" cx="1224.53531598513" cy="97.0909090909091"
+                    index="0" i="0" j="37" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5632" class="apexcharts-data-labels"><text id="SvgjsText5633"
+                        font-family="Helvetica, Arial, sans-serif" x="1344.2676579925649" y="196.06489275122834"
+                        text-anchor="middle" dominant-baseline="auto" font-size="12.92195098095769" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="1344.2676579925649" cy="196.06489275122834"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Saúde e bem-estar</text></g>
+                <rect id="SvgjsRect5635" width="47.89293680297396" height="80.90909090909088" x="1224.53531598513"
+                    y="275.0909090909091" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(255,69,96,0.85)" cx="1224.53531598513" cy="275.0909090909091"
+                    index="0" i="0" j="38" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5636" class="apexcharts-data-labels"><text id="SvgjsText5637"
+                        font-family="Helvetica, Arial, sans-serif" x="1248.481784386617" y="322.5108261504001"
+                        text-anchor="middle" dominant-baseline="auto" font-size="3.896114814836503" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="1248.481784386617" cy="322.5108261504001"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Serviços profissionais</text></g>
+                <rect id="SvgjsRect5639" width="47.89293680297396" height="80.90909090909088" x="1272.428252788104"
+                    y="275.0909090909091" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(119,93,208,0.85)" cx="1272.428252788104" cy="275.0909090909091"
+                    index="0" i="0" j="39" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5640" class="apexcharts-data-labels"><text id="SvgjsText5641"
+                        font-family="Helvetica, Arial, sans-serif" x="1296.374721189591" y="322.5108261504001"
+                        text-anchor="middle" dominant-baseline="auto" font-size="3.896114814836503" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="1296.374721189591" cy="322.5108261504001"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">SexTech</text></g>
+                <rect id="SvgjsRect5643" width="23.94646840148698" height="80.90909090909088" x="1320.3211895910779"
+                    y="275.0909090909091" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(0,143,251,0.85)" cx="1320.3211895910779" cy="275.0909090909091"
+                    index="0" i="0" j="40" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5644" class="apexcharts-data-labels"><text id="SvgjsText5645"
+                        font-family="Helvetica, Arial, sans-serif" x="1332.2944237918214" y="322.1304442807387"
+                        text-anchor="middle" dominant-baseline="auto" font-size="2.754969205852261" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="1332.2944237918214" cy="322.1304442807387"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Smart Cities</text></g>
+                <rect id="SvgjsRect5647" width="71.83940520446095" height="80.90909090909088" x="1344.2676579925649"
+                    y="275.0909090909091" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(0,227,150,0.85)" cx="1344.2676579925649" cy="275.0909090909091"
+                    index="0" i="0" j="41" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5648" class="apexcharts-data-labels"><text id="SvgjsText5649"
+                        font-family="Helvetica, Arial, sans-serif" x="1380.1873605947953" y="322.8027034247292"
+                        text-anchor="middle" dominant-baseline="auto" font-size="4.771746637823798" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="1380.1873605947953" cy="322.8027034247292"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Social tech (impacto social)</text></g>
+                <rect id="SvgjsRect5651" width="47.892936802973736" height="40.45454545454561" x="1416.1070631970258"
+                    y="275.0909090909091" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(254,176,25,0.85)" cx="1416.1070631970258" cy="275.0909090909091"
+                    index="0" i="0" j="42" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5652" class="apexcharts-data-labels"><text id="SvgjsText5653"
+                        font-family="Helvetica, Arial, sans-serif" x="1440.0535315985126" y="301.90317155346605"
+                        text-anchor="middle" dominant-baseline="auto" font-size="2.75496920585226" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="1440.0535315985126" cy="301.90317155346605"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Tecnologia da Informação</text></g>
+                <rect id="SvgjsRect5655" width="47.89293680297419" height="40.45454545454527" x="1416.1070631970258"
+                    y="315.54545454545473" rx="0" ry="0" opacity="1" stroke="#ffffff" stroke-width="2"
+                    stroke-dasharray="0" fill="rgba(255,69,96,0.85)" cx="1416.1070631970258" cy="315.54545454545473"
+                    index="0" i="0" j="43" class="apexcharts-treemap-rect"></rect>
+                <g id="SvgjsG5656" class="apexcharts-data-labels"><text id="SvgjsText5657"
+                        font-family="Helvetica, Arial, sans-serif" x="1440.053531598513" y="342.3577170080115"
+                        text-anchor="middle" dominant-baseline="auto" font-size="2.754969205852262" font-weight="600"
+                        fill="#ffffff" class="apexcharts-datalabel" cx="1440.053531598513" cy="342.3577170080115"
+                        style="font-family: Helvetica, Arial, sans-serif;"
+                        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Óleo e gás</text></g>
+                <g id="SvgjsG5482" class="apexcharts-data-labels"></g>
+            </g>
+        </g>
+        <line id="SvgjsLine5715" x1="0" y1="-100" x2="1464" y2="-100" stroke="#b6b6b6" stroke-dasharray="0"
+            stroke-width="1" stroke-linecap="butt" class="apexcharts-ycrosshairs" y="-100"></line>
+        <line id="SvgjsLine5716" x1="0" y1="0" x2="1464" y2="0" stroke-dasharray="0" stroke-width="0"
+            stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"></line>
+        <g id="SvgjsG5717" class="apexcharts-yaxis-annotations apexcharts-hidden-element-shown"></g>
+        <g id="SvgjsG5718" class="apexcharts-xaxis-annotations apexcharts-hidden-element-shown"></g>
+        <g id="SvgjsG5719" class="apexcharts-point-annotations apexcharts-hidden-element-shown"></g>
+    </g><text id="SvgjsText5475"  x="10" y="16.5" text-anchor="start"
+        dominant-baseline="auto" font-size="14px" font-weight="900" fill="#373d3f" class="apexcharts-title-text chart-title"
+        style="font-family: 'Inter', sans-serif; font-size: 16px; opacity: 1;"
+        svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">Total de Startups do Ecossistema: 269</text>
+</svg>

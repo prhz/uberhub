@@ -71,3 +71,12 @@ export type navData = {
     svg: string,
     href: string
 }
+
+export type homeCard = {
+    title: string,
+    icon: string
+    color: string
+    numbers: string
+    subtitle?: string
+    desc?: string
+}
