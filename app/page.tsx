@@ -9,7 +9,7 @@ import { homeCard } from "./_lib/definitions";
 function HomeCard({ title, icon, numbers, color, desc, subtitle }: homeCard) {
 
     return (
-        <div className="text-zinc-800 bg-[#ffffff] w-fit h-fit py-5 px-8 rounded-lg shadow-lg flex-grow">
+        <div className="text-zinc-800 bg-[#fafafa] w-fit h-fit py-5 px-8 rounded-lg shadow-lg flex-grow">
             <div className="text-xl font-bold flex">
                 {title}
                 {subtitle && (
@@ -82,7 +82,7 @@ export default function Home() {
                         subtitle="Tech"
                     />
                 </div>
-                <div className="bg-[#ffffff] w-fit h-fit py-5 px-8 mt-10 rounded-lg shadow-lg flex-grow">
+                <div className="bg-[#fafafa] w-fit h-fit py-5 px-8 mt-10 rounded-lg shadow-lg flex-grow">
                     <Image 
                         src='/svg/block_graph.svg'
                         alt=''

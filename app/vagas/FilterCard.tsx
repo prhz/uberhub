@@ -10,7 +10,7 @@ export default function FilterCard({ data }: { data: vacfilterData }) {
 
     return (
         <div
-            className="w-[40%] h-fit bg-zinc-200 rounded p-4"
+            className="shadow w-[40%] h-fit bg-[#fafafa] rounded p-4"
         >
             <div
                 className='bg-[#fefefe] flex items-center justify-between w-full rounded px-1'
@@ -106,8 +106,8 @@ export default function FilterCard({ data }: { data: vacfilterData }) {
                             className="transition-colors ease-out duration-200 cursor-pointer w-full rounded px-2 py-1 text-sm select-none"
                             style={
                                 {
-                                    backgroundColor: (op === data.orderBy) ? '#5000b7' : '#fefefe',
-                                    color: (op === data.orderBy) ? '#fefefe' : 'rgb(39 39 42)'
+                                    backgroundColor: (op === data.orderBy) ? '#5000b7' : '#fafafa',
+                                    color: (op === data.orderBy) ? '#fafafa' : 'rgb(39 39 42)'
                                 }
                             }
                             onClick={() => {
@@ -128,16 +128,16 @@ export default function FilterCard({ data }: { data: vacfilterData }) {
                 {
                     advertisers.map(adv => (
                         <div
-                            className="bg-zinc-200 flex gap-2 cursor-pointer w-full rounded px-2 py-1 text-sm items-center select-none"
+                            className="flex gap-2 cursor-pointer w-full rounded px-2 py-1 text-sm items-center select-none"
                             onClick={() => {
                                 if (data.advertisers.includes(adv)) data.setAdvertisers(data.advertisers.filter(a => a !== adv))
                                 else data.setAdvertisers([...data.advertisers, adv])
                             }}
                         >
                             <div
-                                className="h-4 w-4 rounded bg=[#fefefe] transition-colors ease-out duration-200"
+                                className="h-4 w-4 rounded bg=[#ebebeb] transition-colors ease-out duration-200"
                                 style={{
-                                    backgroundColor: (data.advertisers.includes(adv)) ? '#5000b7' : '#fefefe',
+                                    backgroundColor: (data.advertisers.includes(adv)) ? '#5000b7' : '#ebebeb',
                                 }}
                             ><Image src="/svg/check.svg" alt="" height={18} width={18} /></div>
                             {adv}

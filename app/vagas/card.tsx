@@ -6,7 +6,7 @@ import { formatDate } from '../_lib/utils'
 
 export default function VacancyCard({ vacancy, search }: {vacancy: vacancy, search: string}) {
     return (
-        <div className="h-fit w-[100%] bg-zinc-200 px-8 py-6 rounded-md">
+        <div className="h-fit w-[100%] bg-[#FAFAFA] px-8 py-6 rounded-md shadow">
             <div className="flex justify-between items-center mb-2">
                 <div className="text-zinc-800 font-bold text-2xl py-1">
                     {vacancy.advertiser}
@@ -17,7 +17,7 @@ export default function VacancyCard({ vacancy, search }: {vacancy: vacancy, sear
                 {
                     (vacancy.vacancies.some(v => v.toLowerCase().includes(search))) ? 
                         (vacancy.vacancies.filter(v => v.toLowerCase().includes(search)).map((v, idx) => (
-                            <div key={idx + 1} className="w-[100%] h-fit bg-[#fafafa] rounded flex gap-1 text-bold text-sm items-center text-zinc-800 font-semibold">
+                            <div key={idx + 1} className="w-[100%] h-fit bg-[#ebebeb] rounded flex gap-1 text-bold text-sm items-center text-zinc-800 font-semibold">
                                 <div className="w-1.5 h-6 bg-[#5000b7] rounded-l"></div>
                                 {v}
                             </div>

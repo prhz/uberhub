@@ -43,7 +43,7 @@ export default function Home() {
                 <div className="w-full flex gap-1">
                     <div className="w-[70%] flex flex-col gap-1">
                         <div
-                            className="p-4 bg-zinc-200 rounded flex justify-between"
+                            className="p-4 bg-[#fafafa] rounded flex justify-between shadow"
                         >
                             <div
                                 className='bg-[#fefefe] flex items-center justify-between w-full rounded px-1'

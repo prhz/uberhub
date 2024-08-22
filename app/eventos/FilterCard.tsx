@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function FilterCard({ data }: { data: eventfilterData }) {
     const [tagSearch, setTagSearch] = useState<string>('')
     return (
-        <div className="w-[40%] h-fit bg-zinc-200 text-zinc-800 rounded p-4">
+        <div className="w-[40%] h-fit bg-[#fafafa] text-zinc-800 rounded p-4">
             <div
                 className='bg-[#fefefe] flex items-center justify-between w-full rounded px-1'
             >
@@ -68,7 +68,7 @@ export default function FilterCard({ data }: { data: eventfilterData }) {
                     />
                 </div>
             </div>
-            <div className="w-full h-[1px] bg-zinc-400 mt-3 mb-2"></div>
+            <div className="w-full h-[1px] mt-3 mb-2"></div>
             <div>
                 <div className="w-full flex items-center justify-between pr-2 font-semibold gap-1">
                     Ordernar Por
@@ -99,8 +99,8 @@ export default function FilterCard({ data }: { data: eventfilterData }) {
                             className="transition-colors ease-out duration-200 cursor-pointer w-full rounded px-2 py-1 text-sm select-none"
                             style={
                                 {
-                                    backgroundColor: (op === data.orderBy) ? '#5000b7' : '#fefefe',
-                                    color: (op === data.orderBy) ? '#fefefe' : 'rgb(39 39 42)'
+                                    backgroundColor: (op === data.orderBy) ? '#5000b7' : '#fafafa',
+                                    color: (op === data.orderBy) ? '#fafafa' : 'rgb(39 39 42)'
                                 }
                             }
                             onClick={() => {
@@ -118,7 +118,7 @@ export default function FilterCard({ data }: { data: eventfilterData }) {
                 Tipo
                 {event_types.map(type => (
                     <div
-                        className="bg-zinc-200 flex gap-2 cursor-pointer w-full rounded px-2 py-1 text-sm items-center select-none"
+                        className="shadow flex gap-2 cursor-pointer w-full rounded px-2 py-1 text-sm items-center select-none"
                         onClick={() => {
                             if (data.types.includes(type)) data.setTypes(data.types.filter(a => a !== type))
                             else data.setTypes([...data.types, type])
@@ -127,7 +127,7 @@ export default function FilterCard({ data }: { data: eventfilterData }) {
                         <div
                             className="h-4 w-4 rounded bg=[#fefefe] transition-colors ease-out duration-200"
                             style={{
-                                backgroundColor: (data.types.includes(type)) ? '#5000b7' : '#fefefe',
+                                backgroundColor: (data.types.includes(type)) ? '#5000b7' : '#ececec',
                             }}
                         ><Image src="/svg/check.svg" alt="" height={18} width={18} /></div>
                         {type}
