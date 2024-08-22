@@ -41,7 +41,7 @@ export default function Home() {
                     Eventos
                 </div>
                 <div className="w-full flex gap-1">
-                    <div className="w-[70%] flex flex-col gap-1">
+                    <div className="w-[70%] flex flex-col gap-2">
                         <div
                             className="p-4 bg-[#fafafa] rounded flex justify-between shadow"
                         >

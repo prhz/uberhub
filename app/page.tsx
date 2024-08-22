@@ -82,8 +82,8 @@ export default function Home() {
                         subtitle="Tech"
                     />
                 </div>
-                <div className="bg-[#fafafa] w-fit h-fit py-5 px-8 mt-5 rounded-lg shadow-lg flex-grow font-semibold">
-                    Total de Startups no Sistema: 269
+                <div className="bg-[#fafafa] w-fit h-fit py-5 px-8 mt-5 rounded-lg shadow-lg flex-grow font-semibold flex flex-col items-center">
+                    <div className="w-full">Total de Startups no Sistema: 269</div>
                     <Image
                         src='/svg/block_graph.svg'
                         alt=''
@@ -92,8 +92,8 @@ export default function Home() {
                     />
                 </div>
                 <div className="flex flex-wrap gap-5">
-                    <div className="bg-[#fafafa] w-fit h-full py-5 px-8 mt-5 rounded-lg shadow-lg flex-grow font-semibold">
-                        Público Alvo
+                    <div className="bg-[#fafafa] w-fit h-full py-5 px-8 mt-5 rounded-lg shadow-lg flex-grow flex-col font-semibold flex items-center">
+                        <div className="w-full">Público Alvo</div>
                         <Image
                             src='/svg/publico_alvo.svg'
                             alt=''
@@ -101,8 +101,8 @@ export default function Home() {
                             height={0}
                         />
                     </div>
-                    <div className="bg-[#fafafa] w-fit h-full py-5 px-8 mt-5 rounded-lg shadow-lg flex-grow font-semibold">
-                        Startups por Setor x Fase
+                    <div className="bg-[#fafafa] w-fit h-full py-5 px-8 mt-5 rounded-lg shadow-lg flex-grow flex-col font-semibold flex items-center">
+                        <div className="w-full">Startups por Setor x Fase</div>
                         <Image
                             src='/svg/startups-fase.svg'
                             alt=''
@@ -111,8 +111,8 @@ export default function Home() {
                         />
                     </div>
                 </div>
-                <div className="bg-[#fafafa] w-fit h-fit py-5 px-8 mt-5 rounded-lg shadow-lg flex-grow font-semibold">
-                        Startups por Setor x Modelo de Negócio
+                <div className="bg-[#fafafa] w-fit h-fit py-5 px-8 mt-5 rounded-lg shadow-lg flex-grow flex-col font-semibold flex items-center">
+                        <div className="w-full">Startups por Setor x Modelo de Negócio</div>
                         <Image
                             src='/svg/startups-modelo.svg'
                             alt=''
