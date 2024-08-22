@@ -118,7 +118,7 @@ export default function FilterCard({ data }: { data: eventfilterData }) {
                 Tipo
                 {event_types.map(type => (
                     <div
-                        className="shadow flex gap-2 cursor-pointer w-full rounded px-2 py-1 text-sm items-center select-none"
+                        className="flex gap-2 cursor-pointer w-full rounded px-2 py-1 text-sm items-center select-none"
                         onClick={() => {
                             if (data.types.includes(type)) data.setTypes(data.types.filter(a => a !== type))
                             else data.setTypes([...data.types, type])
