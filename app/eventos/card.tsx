@@ -5,7 +5,9 @@ import { Calendar } from "@nextui-org/calendar"
 
 export default function EventCard({ event, search }: { event: event, search: string }) {
     return (
-        <div className='text-zinc-800 bg-zinc-200 px-8 py-5 rounded w-full'>
+        <div className='text-zinc-800 bg-zinc-200 rounded w-full flex'>
+            <div className='h-full w-2 rounded-l bg-[#5000b7]'></div>
+            <div className='w-full h-full pl-3 py-5 pr-4'>
             <div className='flex justify-between items-center'>
             <div className='text-xl font-bold'>{event.name}</div>
             <div className='flex gap-1 items-center'>
@@ -32,7 +34,7 @@ export default function EventCard({ event, search }: { event: event, search: str
                 event.days.map((day, index) => (
                     <div key={index+1} className='text-sm rounded bg-[#fafafa] pr-2 min-h-6 h-fit w-full text-zinc-800 flex gap-1 items-center'>
                         <div className="h-6 w-1 bg-[#5000b7] rounded-l"></div>
-                        {`${day.start.getDate().toString().padStart(2, '0')}/${(day.start.getMonth()+1).toString().padStart(2, '0')}/${day.start.getFullYear()} (${day.start.getHours()+1}:${day.start.getMinutes()+1} - ${day.end.getHours().toString().padStart(2, '0')}:${day.end.getMinutes().toString().padStart(2, '0')})`}
+                        {`${day.start.getDate().toString().padStart(2, '0')}/${(day.start.getMonth()+1).toString().padStart(2, '0')}/${day.start.getFullYear()} (${(day.start.getHours()+1).toString().padStart(2, '0')}:${day.start.getMinutes().toString().padStart(2, '0')}h${(day.end != undefined) ? ` - ${day.end?.getHours().toString().padStart(2, '0')}:${day.end?.getMinutes().toString().padStart(2, '0')}h`: ''})`}
                     </div>
                 ))
             }
@@ -54,6 +56,7 @@ export default function EventCard({ event, search }: { event: event, search: str
             >
                 Saiba mais
             </a>
+            </div>
             </div>
         </div>
     )

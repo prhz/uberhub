@@ -274,31 +274,115 @@ export const vacancies: vacancy[] = [
 export const events: event[] = [
     {
         id: 1,
-        featured_tier: 2,
-        advertiser: 'Advertiser',
-        link: 'https://google.com',
+        featured_tier: 1,
+        advertiser: 'UberHub',
+        link: 'https://www.youtube.com/watch?v=w8VheDdkCuQ',
         tags: [
-            'tag0',
-            'tag1',
-            'tag2',
-            'tag3',
-            'tag4',
-            'para mulheres (pcd)'
+            'podcast',
+            'uberhub',
+            'X-ECOMM'
         ],
         state: 'accepted',
-        name: 'Event Name',
+        name: 'UberHub Podcast com organizadores do evento X-ECOMM',
         days: [
             {
-                start: new Date(2024, 0, 1, 14, 29, 0, 0),
-                end: new Date(2024, 0, 1, 16, 0, 0, 0)
-            }, 
-            {
-                start: new Date(2024, 0, 2, 14, 29, 0, 0),
-                end: new Date(2024, 0, 2, 16, 0, 0, 0)
+                start: new Date(2024, 7, 19, 16, 30, 0, 0),
+                end: undefined
             }
         ],
         type: 'online',
-        adress: 'adress'
+        adress: ''
+    },
+    {
+        id: 2,
+        featured_tier: 1,
+        advertiser: 'ACIUB',
+        link: 'https://eventos.superasistemas.com.br/e/checkout/kdqA5vm2oCUD#!',
+        tags: [
+            'conexão',
+            'negócios',
+            'Aciub'
+
+        ],
+        state: 'accepted',
+        name: '3ª edição Conexão de Negócios - Aciub Jovem',
+        days: [
+            {
+                start: new Date(2024, 7, 21, 6, 30, 0, 0),
+                end: undefined
+            }
+        ],
+        type: 'presencial',
+        adress: 'ACIUB'
+    },
+    {
+        id: 3,
+        featured_tier: 1,
+        advertiser: 'Catsu',
+        link: 'https://www.ingressolive.com/catsu-2024',
+        tags: [
+            'geek',
+            'cultura pop'
+        ],
+        state: 'accepted',
+        name: 'Catsu 2024 - O maior evento de cultura geek de Minas Gerais',
+        days: [
+            {
+                start: new Date(2024, 7, 24, 9, 0, 0, 0),
+                end: new Date(2024, 7, 24, 18, 0, 0, 0)
+            },
+            {
+                start: new Date(2024, 7, 25, 9, 0, 0, 0),
+                end: new Date(2024, 7, 25, 18, 0, 0, 0)
+            }
+        ],
+        type: 'presencial',
+        adress: 'Castelli Eventos'
+    },
+    {
+        id: 4,
+        featured_tier: 1,
+        advertiser: 'Andrey Ferraz',
+        link: 'https://ia-marketing-8qiwyio.gamma.site',
+        tags: [
+            'palestra',
+            'IA generativa',
+            'IA',
+            'marketing',
+            'vendas'
+        ],
+        state: 'accepted',
+        name: 'O impacto da IA generativa nas estratégias de marketing e vendas',
+        days: [
+            {
+                start: new Date(2024, 7, 26, 18, 0, 0, 0),
+                end: undefined
+            }
+        ],
+        type: 'presencial',
+        adress: 'Átrio Business Center'
+    },
+    {
+        id: 5,
+        featured_tier: 1,
+        advertiser: 'X-ECOMM',
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLScGLb9RaXjR8TMQ9TKv5f1Tg7iOPz7at-bUunOMJknEkEqEGw/viewform?pli=',
+        tags: [
+            'encontro',
+            'X-ECOMM',
+            'marketplace',
+            'vendas'
+        ],
+        state: 'accepted',
+        name: 'X-ECOMM Marketplaces - tudo que você precisa saber para vender nos marketplaces',
+        days: [
+            {
+                start: new Date(2024, 7, 27, 17, 30, 0, 0),
+                end: undefined
+            }
+        ],
+        type: 'presencial',
+        adress: 'SebraeLab'
     }
 ]
 

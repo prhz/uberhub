@@ -18,7 +18,7 @@ export interface vacancy extends post {
 
 export type eventDay = {
     start: Date
-    end : Date
+    end : Date | undefined
 }
 
 export interface event extends post {
@@ -56,10 +56,10 @@ export type eventfilterData = {
     setTags: Dispatch<SetStateAction<string[]>>
     orderBy: orderOption
     setOrderBy: Dispatch<SetStateAction<orderOption>>,
-    date_start: Date,
-    setDate_start: Dispatch<SetStateAction<Date>>,
-    date_end: Date,
-    setDate_end: Dispatch<SetStateAction<Date>>,
+    date_start: Date | undefined,
+    setDate_start: Dispatch<SetStateAction<Date | undefined>>,
+    date_end: Date | undefined,
+    setDate_end: Dispatch<SetStateAction<Date | undefined>>,
     orderBool: boolean,
     setOrderBool: Dispatch<SetStateAction<boolean>>,
     types: string[],

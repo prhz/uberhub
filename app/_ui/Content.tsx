@@ -45,7 +45,7 @@ export default function Content({
                <NavCard name='Eventos' href='/eventos' svg='/svg/event.svg'/>
             </nav>
             <footer
-                className='w-full min-h-[100px] bg-zinc-200 mt-5'
+                className='w-full min-h-[100px] mt-5'
             >
 
             </footer>

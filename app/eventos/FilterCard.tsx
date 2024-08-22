@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function FilterCard({ data }: { data: eventfilterData }) {
     const [tagSearch, setTagSearch] = useState<string>('')
     return (
-        <div className="w-[40%] h-fit bg-zinc-200 rounded p-4">
+        <div className="w-[40%] h-fit bg-zinc-200 text-zinc-800 rounded p-4">
             <div
                 className='bg-[#fefefe] flex items-center justify-between w-full rounded px-1'
             >
@@ -52,6 +52,21 @@ export default function FilterCard({ data }: { data: eventfilterData }) {
                         {tag}
                     </div>
                 ))}
+            </div>
+            <div className="w-full flex justify-between items-center">
+                <div></div>
+                <div
+                    className='transition-colors ease-out duration-150 text-[#fafafa] cursor-pointer py-1 pr-1 pl-2 font-semibold rounded bg-red-600 h-fit w-fit text-xs flex gap-1 items-center'
+                    onClick={() => { data.setTags([]) }}
+                >
+                    clear
+                    <Image
+                        src='/svg/cross.svg'
+                        alt=''
+                        height={15}
+                        width={15}
+                    />
+                </div>
             </div>
             <div className="w-full h-[1px] bg-zinc-400 mt-3 mb-2"></div>
             <div>
@@ -99,7 +114,7 @@ export default function FilterCard({ data }: { data: eventfilterData }) {
                 </div>
             </div>
             <div className="w-full h-[1px] bg-zinc-400 mt-3 mb-2"></div>
-            <div className="flex flex-col gap-1 font-semibold">
+            <div className="flex flex-col font-semibold">
                 Tipo
                 {event_types.map(type => (
                     <div
@@ -120,13 +135,15 @@ export default function FilterCard({ data }: { data: eventfilterData }) {
                 ))}
             </div>
             <div className="w-full h-[1px] bg-zinc-400 mt-3 mb-2"></div>
-            <div>
+            <div className="w-full flex flex-col gap-1 font-semibold">
                 Data
                 <input
+                    className="focus:outline-none text-sm font-normal px-2 rounded"
                     type="date"
                     onChange={e => { data.setDate_start(new Date(e.target.value)) }}
                 />
                 <input
+                    className="focus:outline-none text-sm font-normal px-2 rounded"
                     type="date"
                     onChange={e => { data.setDate_end(new Date(e.target.value)) }}
                 />
