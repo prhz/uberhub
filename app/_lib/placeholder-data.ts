@@ -307,7 +307,7 @@ export const events: event[] = [
     },
     {
         id: 2,
-        featured_tier: 1,
+        featured_tier: 2,
         visit_count: 0,
         advertiser: 'ACIUB',
         link: 'https://eventos.superasistemas.com.br/e/checkout/kdqA5vm2oCUD#!',
@@ -330,7 +330,7 @@ export const events: event[] = [
     },
     {
         id: 3,
-        featured_tier: 1,
+        featured_tier: 2,
         visit_count: 0,
         advertiser: 'Catsu',
         link: 'https://www.ingressolive.com/catsu-2024',
@@ -379,7 +379,7 @@ export const events: event[] = [
     },
     {
         id: 5,
-        featured_tier: 1,
+        featured_tier: 3,
         visit_count: 0,
         advertiser: 'X-ECOMM',
         link: 'https://docs.google.com/forms/d/e/1FAIpQLScGLb9RaXjR8TMQ9TKv5f1Tg7iOPz7at-bUunOMJknEkEqEGw/viewform?pli=',
