@@ -30,7 +30,6 @@ export default function Home() {
     }
 
     return (
-        <Suspense fallback={<div>loading...</div>}>
         <main className="w-full min-h-[100dvh] flex justify-center">
             <div className={`w-[70%] flex flex-col gap-2`}>
                 <div className="w-full text-3xl font-bold text-zinc-800 p-2 px-4 bg-[#fafafa] rounded shadow mt-4">
@@ -84,6 +83,5 @@ export default function Home() {
                 </div>
             </div>
         </main>
-        </Suspense>
     )
 }

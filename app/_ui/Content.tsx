@@ -2,7 +2,7 @@
 
 import '@/app/globals.css'
 import NavCard from './NavCard'
-import { useState } from 'react'
+import { Suspense, useState } from 'react'
 import Image from 'next/image'
 
 export default function Content({
@@ -42,7 +42,7 @@ export default function Content({
                     onClick={() => { setNav(!nav) }}
                 />
             </header>
-            {children}
+            <Suspense>{children}</Suspense> 
             <nav className={`fixed ${nav ? 'nav-o' : 'nav-c'} min-h-full top-[50px] bg-[#5000b7] duration-300 flex flex-col items-center gap-1 p-2`}>
                 <NavCard name='Vagas' href='/vagas' svg='/svg/vacancy.svg' />
                 <NavCard name='Eventos' href='/eventos' svg='/svg/event.svg' />
