@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function EventCard({ event, search, shadow }: { event: event, search: string, shadow: boolean }) {
     const [reported, setReported] = useState<boolean>(false)
     return (
-        <div className={`text-zinc-800 bg-[#fafafa] rounded w-full flex ${shadow && 'shadow'} flex-grow`}>
+        <div className={`text-zinc-800 bg-[#fafafa] rounded w-full flex ${shadow && 'shadow'} flex-grow ${(event.days[event.days.length - 1].start < new Date()) && 'brightness-95'}`}>
             <div className='h-full w-2 rounded-l bg-[#5000b7]'></div>
             <div className='px-8 py-6 w-full'>
                 <div className='flex justify-between mb-2'>
@@ -31,6 +31,7 @@ export default function EventCard({ event, search, shadow }: { event: event, sea
                     </div>
                     <div className='flex gap-1 ml-3'>
                         {(event.featured_tier > 1) && (<div className="font-semibold text-sm rounded bg-[#fafafa] h-fit w-fit px-2 py-1 text-[#5000b7]">destaque</div>)}
+                        {(event.days[event.days.length - 1].start < new Date()) && (<div className='font-bold text-sm rounded bg-[#dd3232] h-fit w-fit px-2 py-1 text-[#fefefe]'>Concluído</div>)}
                     </div>
                 </div>
                 <div className='font-semibold'>{event.advertiser}</div>

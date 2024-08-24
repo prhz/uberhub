@@ -13,7 +13,7 @@ export default function Content({
     const [nav, setNav] = useState<boolean>()
     return (
         <>
-            <header className='w-full sticky top-0 h-[50px] bg-[#5000b7] flex justify-between items-center px-4'>
+            <header className='z-10 w-full sticky top-0 h-[50px] bg-[#5000b7] flex justify-between items-center px-4'>
                 <a href="/"><Image src='/img/logo.png' alt='uberhub logo' height={0} width={100} /></a>
                 <div
                     className='w-full flex justify-end items-center font-semibold gap-5 px-10'
