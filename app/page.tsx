@@ -48,7 +48,7 @@ function HomeCard({ title, icon, numbers, color, desc, subtitle }: homeCard) {
 export default function Home() {
     return (
         <main className="flex justify-center min-h-screen w-full gap-x-4 text-zinc-800">
-            <div className="2xl:w-[1200px] xl:w-[1000px] lg:w-[740px] md:w-[600px] sm:w-[300px]">
+            <div className="2xl:w-[1500px] xl:w-[1000px] lg:w-[740px] md:w-[600px] sm:w-[300px]">
                 <div className="w-full flex flex-wrap gap-2 mt-8">
                     <HomeCard
                         title="Membros"
