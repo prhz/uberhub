@@ -5,7 +5,7 @@ import { formatDate } from "../_lib/utils"
 export default function EventHomeCard({ event }: { event: event }) {
     return (
         <a href={`/eventos?name=${event.name}`} className="cursor-pointer w-full">
-            <div className="w-full rounded px-8 py-5 hover:shadow-xl transition ease-out duration-200">
+            <div className="bg-[#fefefe] w-full rounded px-8 py-5 hover:shadow-xl transition ease-out duration-200">
                 <div className="flex gap-2">
                     {
                         event.has_image ?

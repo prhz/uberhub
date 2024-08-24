@@ -1,16 +1,10 @@
 'use client'
 
 import Image from "next/image";
-import { useState } from 'react'
-import { Calendar } from "@nextui-org/calendar"
-import { DateValue } from "@nextui-org/calendar";
 import { homeCard, vacancy, event } from "./_lib/definitions";
 import { vacancies, events } from '@/app/_lib/placeholder-data'
-import VacancyCard from "./vagas/card";
-import EventCard from "./eventos/card";
 import VacancyHomeCard from "./vagas/HomeCard";
 import EventHomeCard from "./eventos/HomeCard";
-import { getFeaturedVac } from "./_lib/utils";
 
 function HomeCard({ title, icon, numbers, color, desc, subtitle }: homeCard) {
 
@@ -53,8 +47,8 @@ function HomeCard({ title, icon, numbers, color, desc, subtitle }: homeCard) {
 
 export default function Home() {
     return (
-        <main className="flex justify-center min-h-screen w-[100vw] gap-x-4 text-zinc-800">
-            <div className="w-[80%]">
+        <main className="flex justify-center min-h-screen w-full gap-x-4 text-zinc-800">
+            <div className="2xl:w-[1200px] xl:w-[1000px] lg:w-[740px] md:w-[600px] sm:w-[300px]">
                 <div className="w-full flex flex-wrap gap-2 mt-8">
                     <HomeCard
                         title="Membros"
@@ -91,20 +85,27 @@ export default function Home() {
                 <div className="bg-[#fafafa] w-full h-fit rounded-lg py-5 px-8 shadow-lg mt-5 mb-1">
                     <div className="text-xl font-bold w-full">Anúncios em destaque</div>
                 </div>
-                <div className="flex gap-1 h-fit">
-                    <div className="w-[50%] flex gap-1 bg-[#fafafa] rounded-lg py-5 px-8 shadow-lg mb-1">
-                        <div className="flex flex-col gap-1 flex-grow font-bold text-xl">
-                            Vagas
+                <div className="flex flex-wrap gap-1 h-fit w-full">
+                    <div className="w-[49.8%] flex-grow flex gap-1 bg-[#e8edf3] rounded-lg p-8 shadow-lg mb-1">
+                        <div className="flex flex-col gap-1 w-full font-bold text-xl">
+                            <div className="w-full mb-1 rounded bg-[#fefefe] py-1 px-2 flex justify-between">
+                                Vagas
+                                <a className="py-1 px-2 rounded text-[#5000b7] text-sm" href="/vagas">ver mais</a>
+                            </div>
+                            
                             {vacancies.sort((a: vacancy, b: vacancy) => (
-                                a.featured_tier < b.featured_tier ? -1 : a.featured_tier > b.featured_tier ? 1 : 0
-                            )).slice(0, 3).map(vac => (<VacancyHomeCard vacancy={vac} />))}
+                                a.featured_tier > b.featured_tier ? -1 : a.featured_tier < b.featured_tier ? 1 : 0
+                            )).reverse().slice(0, 3).map(vac => (<VacancyHomeCard vacancy={vac} />))}
                         </div>
                     </div>
-                    <div className="w-[50%] flex gap-1 bg-[#fafafa] rounded-lg py-5 px-8 shadow-lg mb-1">
+                    <div className="w-[49.8%] flex-grow flex gap-1 bg-[#e8edf3] rounded-lg p-8 shadow-lg mb-1">
                         <div className="flex flex-col gap-1 w-full font-bold text-xl">
-                            Eventos
+                            <div className="w-full mb-1 rounded bg-[#fefefe] py-1 px-2 flex justify-between">
+                                Eventos
+                                <a className="py-1 px-2 rounded text-[#5000b7] text-sm" href="/eventos">ver mais</a>
+                            </div>
                             {events.sort((a: event, b: event) => (
-                                a.featured_tier < b.featured_tier ? -1 : a.featured_tier > b.featured_tier ? 1 : 0
+                                a.featured_tier > b.featured_tier ? -1 : a.featured_tier < b.featured_tier ? 1 : 0
                             )).slice(0, 3).map(vac => (<EventHomeCard event={vac} />))}
                         </div>
                     </div>
