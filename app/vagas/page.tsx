@@ -4,7 +4,7 @@ import '@/app/globals.css'
 import Image from "next/image"
 import VacancyCard from "./card"
 import FilterCard from "./FilterCard"
-import { use, useState } from "react"
+import { Suspense, use, useState } from "react"
 import { vacancies, vacOrderOptions } from "../_lib/placeholder-data"
 import { vacancy, orderOption, vacfilterData } from "../_lib/definitions"
 import { useSearchParams } from 'next/navigation'
@@ -30,6 +30,7 @@ export default function Home() {
     }
 
     return (
+        <Suspense>
         <main className="w-full min-h-[100dvh] flex justify-center">
             <div className={`w-[70%] flex flex-col gap-2`}>
                 <div className="w-full text-3xl font-bold text-zinc-800 p-2 px-4 bg-[#fafafa] rounded shadow mt-4">
@@ -83,5 +84,6 @@ export default function Home() {
                 </div>
             </div>
         </main>
+        </Suspense>
     )
 }

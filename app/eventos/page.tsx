@@ -2,7 +2,7 @@
 
 import { events, eventOrderOptions } from "../_lib/placeholder-data"
 import EventCard from "./card"
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import Image from "next/image";
 import FilterCard from "./FilterCard";
 import { event, eventfilterData, orderOption } from "../_lib/definitions";
@@ -34,6 +34,7 @@ export default function Home() {
     }
 
     return (
+        <Suspense>
         <main className="w-full min-h-[100dvh] flex justify-center">
             <div className='w-[70%] flex flex-col gap-2'>
                 <div className="w-full text-3xl font-bold text-zinc-800 p-2 px-4 bg-[#fafafa] rounded shadow mt-4">
@@ -95,5 +96,6 @@ export default function Home() {
                 </div>
             </div>
         </main>
+        </Suspense>
     )
 }
