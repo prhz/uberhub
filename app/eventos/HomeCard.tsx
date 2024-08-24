@@ -13,6 +13,7 @@ export default function EventHomeCard({ event }: { event: event }) {
                                 <Image
                                     src={`/img/event-${event.id}.png`}
                                     alt=''
+                                    className="rounded"
                                     height={40}
                                     width={40}
                                 />

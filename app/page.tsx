@@ -94,8 +94,10 @@ export default function Home() {
                             </div>
                             
                             {vacancies.sort((a: vacancy, b: vacancy) => (
+                                a.date < b.date ? -1 : a.date > b.date ? 1 : 0
+                            )).sort((a: vacancy, b: vacancy) => (
                                 a.featured_tier > b.featured_tier ? -1 : a.featured_tier < b.featured_tier ? 1 : 0
-                            )).reverse().slice(0, 3).map(vac => (<VacancyHomeCard vacancy={vac} />))}
+                            )).slice(0, 3).map(vac => (<VacancyHomeCard vacancy={vac} />))}
                         </div>
                     </div>
                     <div className="w-[49.8%] flex-grow flex gap-1 bg-[#e8edf3] rounded-lg p-8 shadow-lg mb-1">
@@ -105,6 +107,8 @@ export default function Home() {
                                 <a className="py-1 px-2 rounded text-[#5000b7] text-sm" href="/eventos">ver mais</a>
                             </div>
                             {events.sort((a: event, b: event) => (
+                                a.date < b.date ? -1 : a.date > b.date ? 1 : 0
+                            )).sort((a: event, b: event) => (
                                 a.featured_tier > b.featured_tier ? -1 : a.featured_tier < b.featured_tier ? 1 : 0
                             )).slice(0, 3).map(vac => (<EventHomeCard event={vac} />))}
                         </div>

@@ -13,6 +13,7 @@ export default function VacancyHomeCard({ vacancy }: { vacancy: vacancy }) {
                             <Image
                                 src={`/img/vacancy-${vacancy.id}.png`}
                                 alt=''
+                                className="rounded"
                                 height={40}
                                 width={40}
                             />
@@ -39,7 +40,7 @@ export default function VacancyHomeCard({ vacancy }: { vacancy: vacancy }) {
             </div>
             <div className="w-[100%] h-fit bg-[#ebebeb] rounded flex gap-1 text-bold text-sm items-center text-zinc-800 font-semibold my-2">
                 <div className="w-1.5 h-6 bg-[#5000b7] rounded-l"></div>
-                {`${vacancy.vacancies.length} vagas anunciadas`}
+                {`${vacancy.vacancies.length} vaga${vacancy.vacancies.length > 1? 's':''} anunciadas`}
             </div>
             <div className="flex gap-1 overflow-auto whitespace-nowrap">
                 {vacancy.tags.map((tag, idx) => (<div key={idx + 1} className="text-xs text-[#fafafa] bg-zinc-400 rounded px-2 py-1 items-center">{tag}</div>))}

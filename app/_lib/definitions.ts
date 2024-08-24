@@ -28,6 +28,7 @@ export type eventDay = {
 export interface event extends post {
     name: string
     adress: string | undefined
+    date: Date
 
     days: eventDay[]
 
