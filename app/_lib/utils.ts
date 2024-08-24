@@ -28,3 +28,15 @@ export const getFeaturedVac = (arr: vacancy[]) => {
     )).slice(0, 3)
 }
 
+const pad = (num: number) => num.toString().padStart(2, '0')
+
+export const dateForURL = (date: Date) => `${date.getFullYear()}${pad(date.getMonth()+1)}${pad(date.getDate())}T${pad(date.getHours()+1)}${pad(date.getMinutes())}${pad(date.getMilliseconds())}-0300`
+
+export const calendarLink = (event: event) => {
+    const text = event.name.replace(' ', '+')
+    const len = event.days.length - 1
+    const [dateStart, dateEnd] = [event.days[0].start, event.days[len].end || event.days[len].start]
+    const dates = `${dateForURL(dateStart)}/${dateForURL(dateEnd)}`
+    const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${text}&dates=${dates}`
+    return url
+}

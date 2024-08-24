@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { event } from '../_lib/definitions'
 import Image from 'next/image'
+import { calendarLink } from '../_lib/utils'
 
 export default function EventCard({ event, search, shadow }: { event: event, search: string, shadow: boolean }) {
     const [reported, setReported] = useState<boolean>(false)
@@ -66,7 +67,7 @@ export default function EventCard({ event, search, shadow }: { event: event, sea
                     }
 
                 </div>
-                <div className='flex items-center gap-2 justify-end'>
+                <div className='flex items-center gap-2 justify-between'>
                     <abbr title="Sinalizar erro no post">
                         <Image
                             width={25}
@@ -85,11 +86,24 @@ export default function EventCard({ event, search, shadow }: { event: event, sea
                             }}
                         />
                     </abbr>
+                    <div className='flex gap-2 items-center'>
+                    <abbr title="Adicionar na agenda" className=''>
+                        <a href={calendarLink(event)} target="_blank">
+                            <Image 
+                                src='/svg/calendar.svg'
+                                alt=''
+                                height={30}
+                                width={30}
+                                className='cursor-pointer'
+                            />
+                        </a>
+                    </abbr>
                     <a href={event.link} target="_blank" className="" onClick={() => { event.visit_count++ }}>
                         <div className="py-1 bg-[#5000b7] text-[#fafafa] rounded text-sm font-semibold px-2 flex gap-1">
                             saiba mais
                         </div>
                     </a>
+                    </div>
                 </div>
             </div>
         </div>
