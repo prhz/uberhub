@@ -1,4 +1,4 @@
-import { vacancy, event } from "./definitions";
+import { vacancy, event, post } from "./definitions";
 
 export function authVacancy(vac: vacancy): boolean {
     return (vac.id < 1)                              ? false : // id is 0 or lower
@@ -20,5 +20,11 @@ export const eventsByDate = (events: event[], [start, end]: [start: Date, end: D
             (day.start >= start) && (day.end == undefined || day.end <= end)
         ))
     ))
+}
+
+export const getFeaturedVac = (arr: vacancy[]) => {
+    arr.sort((a: vacancy, b: vacancy) => (
+        a.featured_tier < b.featured_tier ? -1 : a.featured_tier > b.featured_tier ? 1 : 0
+    )).slice(0, 3)
 }
 

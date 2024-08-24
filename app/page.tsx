@@ -4,7 +4,13 @@ import Image from "next/image";
 import { useState } from 'react'
 import { Calendar } from "@nextui-org/calendar"
 import { DateValue } from "@nextui-org/calendar";
-import { homeCard } from "./_lib/definitions";
+import { homeCard, vacancy, event } from "./_lib/definitions";
+import { vacancies, events } from '@/app/_lib/placeholder-data'
+import VacancyCard from "./vagas/card";
+import EventCard from "./eventos/card";
+import VacancyHomeCard from "./vagas/HomeCard";
+import EventHomeCard from "./eventos/HomeCard";
+import { getFeaturedVac } from "./_lib/utils";
 
 function HomeCard({ title, icon, numbers, color, desc, subtitle }: homeCard) {
 
@@ -47,9 +53,9 @@ function HomeCard({ title, icon, numbers, color, desc, subtitle }: homeCard) {
 
 export default function Home() {
     return (
-        <main className="flex justify-center min-h-screen w-full gap-x-4">
+        <main className="flex justify-center min-h-screen w-[100vw] gap-x-4 text-zinc-800">
             <div className="w-[80%]">
-                <div className="w-full flex flex-wrap gap-2 mt-10">
+                <div className="w-full flex flex-wrap gap-2 mt-8">
                     <HomeCard
                         title="Membros"
                         icon="/svg/members.svg"
@@ -82,6 +88,28 @@ export default function Home() {
                         subtitle="Tech"
                     />
                 </div>
+                <div className="bg-[#fafafa] w-full h-fit rounded-lg py-5 px-8 shadow-lg mt-5 mb-1">
+                    <div className="text-xl font-bold w-full">Anúncios em destaque</div>
+                </div>
+                <div className="flex gap-1 h-fit">
+                    <div className="w-[50%] flex gap-1 bg-[#fafafa] rounded-lg py-5 px-8 shadow-lg mb-1">
+                        <div className="flex flex-col gap-1 flex-grow font-bold text-xl">
+                            Vagas
+                            {vacancies.sort((a: vacancy, b: vacancy) => (
+                                a.featured_tier < b.featured_tier ? -1 : a.featured_tier > b.featured_tier ? 1 : 0
+                            )).slice(0, 3).map(vac => (<VacancyHomeCard vacancy={vac} />))}
+                        </div>
+                    </div>
+                    <div className="w-[50%] flex gap-1 bg-[#fafafa] rounded-lg py-5 px-8 shadow-lg mb-1">
+                        <div className="flex flex-col gap-1 w-full font-bold text-xl">
+                            Eventos
+                            {events.sort((a: event, b: event) => (
+                                a.featured_tier < b.featured_tier ? -1 : a.featured_tier > b.featured_tier ? 1 : 0
+                            )).slice(0, 3).map(vac => (<EventHomeCard event={vac} />))}
+                        </div>
+                    </div>
+                </div>
+
                 <div className="bg-[#fafafa] w-fit h-fit py-5 px-8 mt-5 rounded-lg shadow-lg flex-grow font-semibold flex flex-col items-center">
                     <div className="w-full">Total de Startups no Sistema: 269</div>
                     <Image
@@ -111,15 +139,6 @@ export default function Home() {
                         />
                     </div>
                 </div>
-                <div className="bg-[#fafafa] w-fit h-fit py-5 px-8 mt-5 rounded-lg shadow-lg flex-grow flex-col font-semibold flex items-center">
-                        <div className="w-full">Startups por Setor x Modelo de Negócio</div>
-                        <Image
-                            src='/svg/startups-modelo.svg'
-                            alt=''
-                            width={2000}
-                            height={0}
-                        />
-                    </div>
             </div>
         </main>
     );

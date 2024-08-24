@@ -4,6 +4,8 @@ export type post = {
     id: number
     featured_tier: 1 | 2 | 3
     visit_count: number
+    reports: string[]
+    has_image: boolean
 
     advertiser: string
     link: string
@@ -14,6 +16,7 @@ export type post = {
 
 export interface vacancy extends post {
     date: Date
+    limit_date: Date | undefined
     vacancies: string[]
 }
 
@@ -24,7 +27,7 @@ export type eventDay = {
 
 export interface event extends post {
     name: string
-    adress?: string
+    adress: string | undefined
 
     days: eventDay[]
 

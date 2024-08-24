@@ -23,3 +23,4 @@ export default function NavCard({ name, svg, href }: navData) {
         </a>
     )
 }
+

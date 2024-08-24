@@ -81,7 +81,7 @@ export default function FilterCard({ data }: { data: vacfilterData }) {
                     Ordenar Por
                     {(data.orderBy.name != "em destaque") && (
                         <div
-                            className="transition-transform ease-out duration-200 cursor-pointer w-fit h-fit rounded text-xs select-none"
+                            className="transition ease-out duration-200 cursor-pointer w-fit h-fit rounded text-xs select-none"
                             onClick={() => {
                                 data.setOrderBool(!data.orderBool)
                             }}
