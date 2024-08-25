@@ -68,41 +68,46 @@ export default function EventCard({ event, search, shadow }: { event: event, sea
 
                 </div>
                 <div className='flex items-center gap-2 justify-between'>
-                    <abbr title="Sinalizar erro no post">
-                        <Image
-                            width={25}
-                            height={25}
-                            src='/svg/flag.svg'
-                            alt=''
-                            className={`cursor-pointer ${reported ? '' : 'grayscale'} hover:grayscale-0 transition ease-out duration-200 rounded-full`}
-                            onClick={() => {
-                                if (reported) {
-                                    event.reports.pop()
-                                    setReported(false)
-                                    return
-                                }
-                                event.reports.push('err')
-                                setReported(true)
-                            }}
-                        />
-                    </abbr>
-                    <div className='flex gap-2 items-center'>
-                    <abbr title="Adicionar na agenda" className=''>
-                        <a href={calendarLink(event)} target="_blank">
-                            <Image 
-                                src='/svg/calendar.svg'
+                    <div>
+                        <abbr title="Sinalizar erro no post">
+                            <Image
+                                width={25}
+                                height={25}
+                                src='/svg/flag.svg'
                                 alt=''
-                                height={30}
-                                width={30}
-                                className='cursor-pointer'
+                                className={`cursor-pointer ${reported ? '' : 'grayscale'} hover:grayscale-0 transition ease-out duration-200 rounded-full`}
+                                onClick={() => {
+                                    if (reported) {
+                                        event.reports.pop()
+                                        setReported(false)
+                                        return
+                                    }
+                                    event.reports.push('err')
+                                    setReported(true)
+                                }}
                             />
+                        </abbr>
+                    </div>
+                    <div className='flex gap-2 items-center'>
+                        {event.days[event.days.length - 1].start > new Date() && (
+                            <abbr title="Adicionar na agenda" className=''>
+                                <a href={calendarLink(event)} target="_blank">
+                                    <Image
+                                        src='/svg/calendar.svg'
+                                        alt=''
+                                        height={30}
+                                        width={30}
+                                        className='cursor-pointer'
+                                    />
+                                </a>
+                            </abbr>
+                        )}
+                        
+                        <a href={event.link} target="_blank" className="" onClick={() => { event.visit_count++ }}>
+                            <div className="py-1 bg-[#5000b7] text-[#fafafa] rounded text-sm font-semibold px-2 flex gap-1">
+                                saiba mais
+                            </div>
                         </a>
-                    </abbr>
-                    <a href={event.link} target="_blank" className="" onClick={() => { event.visit_count++ }}>
-                        <div className="py-1 bg-[#5000b7] text-[#fafafa] rounded text-sm font-semibold px-2 flex gap-1">
-                            saiba mais
-                        </div>
-                    </a>
                     </div>
                 </div>
             </div>

@@ -37,6 +37,6 @@ export const calendarLink = (event: event) => {
     const len = event.days.length - 1
     const [dateStart, dateEnd] = [event.days[0].start, event.days[len].end || event.days[len].start]
     const dates = `${dateForURL(dateStart)}/${dateForURL(dateEnd)}`
-    const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${text}&dates=${dates}`
+    const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${text}&dates=${dates}${event.type == 'presencial' && `&location=${event.adress}`}`
     return url
 }

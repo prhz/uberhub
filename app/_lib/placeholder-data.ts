@@ -443,7 +443,7 @@ export const events: event[] = [
             }
         ],
         type: 'presencial',
-        adress: 'SebraeLab'
+        adress: 'R. Izaú Rangel de Mendonça, 20 - Santa Mônica, Uberlândia - MG, 38408-136, Brasil'
     }
 ]
 
