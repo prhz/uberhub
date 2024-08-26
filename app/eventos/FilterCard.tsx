@@ -68,7 +68,7 @@ export default function FilterCard({ data }: { data: eventfilterData }) {
                     />
                 </div>
             </div>
-            <div className="w-full h-[1px] mt-3 mb-2"></div>
+            <div className="w-full h-[1px] bg-zinc-400 mt-3 mb-2"></div>
             <div>
                 <div className="w-full flex items-center justify-between pr-2 font-semibold gap-1">
                     Ordernar Por
@@ -136,18 +136,46 @@ export default function FilterCard({ data }: { data: eventfilterData }) {
             </div>
             <div className="w-full h-[1px] bg-zinc-400 mt-3 mb-2"></div>
             <div className="w-full flex flex-col gap-1 font-semibold">
-                Data
-                <input
-                    className="focus:outline-none text-sm font-normal px-2 rounded"
-                    type="date"
-                    onChange={e => { data.setDate_start(new Date(e.target.value)) }}
-                />
-                <input
-                    className="focus:outline-none text-sm font-normal px-2 rounded"
-                    type="date"
-                    onChange={e => { data.setDate_end(new Date(e.target.value)) }}
-                />
+                <form action="" className="w-full flex flex-col items-start gap-1">
+                    <div className="flex justify-between w-full px-2">
+                        <div>Data</div>
+                        <div className="flex gap-1 text-xs bg-red-600 text-[#fafafa] rounded pl-2 pr-1 py-1 items-center">
+                            <input 
+                                type="reset" 
+                                value="clear" 
+                                onClick={() => { 
+                                    data.setDate_end(undefined); 
+                                    data.setDate_start(undefined) 
+                                }} 
+                            />
+                            <Image src="/svg/cross.svg" alt="" height={15} width={15} />
+                        </div>
+                    </div>
+                    <input
+                        className="focus:outline-none text-sm font-normal px-2 rounded w-full"
+                        type="date"
+                        onChange={e => { data.setDate_start(new Date(e.target.value)) }}
+                    />
+                    <input
+                        className="focus:outline-none text-sm font-normal px-2 rounded w-full"
+                        type="date"
+                        onChange={e => { data.setDate_end(new Date(e.target.value)) }}
+                    />
+                </form>
             </div>
+            {(data.date_start && data.date_end) && data.date_start > data.date_end && (
+                <div className="w-full flex items-center justify-center my-1">
+                    <div className="w-fit flex items-center justify-center rounded bg-red-500 text-xs font-bold py-1 px-3">
+                        <Image
+                            src='/svg/alert.svg'
+                            alt=''
+                            width={20}
+                            height={20}
+                        />
+                        <div className="text-center text-[#fafafa]">A data inicial deve ser menor ou igual a data final</div>
+                    </div>
+                </div>
+            )}
         </div>
     )
 }

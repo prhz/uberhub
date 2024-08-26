@@ -4,7 +4,7 @@ export const vacancies: vacancy[] = [
     {
         id: 1,
         featured_tier: 3,
-        visit_count: 0,
+        visit_count: 106,
         reports: [],
         has_image: true,
         advertiser: 'Valecard',
@@ -29,7 +29,7 @@ export const vacancies: vacancy[] = [
     {
         id: 2,
         featured_tier: 1,
-        visit_count: 0,
+        visit_count: 184,
         reports: [],
         has_image: true,
         advertiser: 'Nagro',
@@ -54,7 +54,7 @@ export const vacancies: vacancy[] = [
     {
         id: 3,
         featured_tier: 1,
-        visit_count: 0,
+        visit_count: 141,
         reports: [],
         has_image: true,
         advertiser: 'GAIO DataOS',
@@ -75,7 +75,7 @@ export const vacancies: vacancy[] = [
     {
         id: 4,
         featured_tier: 3,
-        visit_count: 0,
+        visit_count: 289,
         reports: [],
         has_image: true,
         advertiser: 'Sankhya',
@@ -120,7 +120,7 @@ export const vacancies: vacancy[] = [
     {
         id: 5,
         featured_tier: 1,
-        visit_count: 0,
+        visit_count: 121,
         reports:[],
         has_image: true,
         advertiser: 'Chave7',
@@ -142,7 +142,7 @@ export const vacancies: vacancy[] = [
     {
         id: 6,
         featured_tier: 1,
-        visit_count: 0,
+        visit_count: 89,
         reports:[],
         has_image: true,
         advertiser: 'Autus',
@@ -161,7 +161,7 @@ export const vacancies: vacancy[] = [
     {
         id: 7,
         featured_tier: 1,
-        visit_count: 0,
+        visit_count: 76,
         reports:[],
         has_image: true,
         advertiser: 'Codenato',
@@ -180,7 +180,7 @@ export const vacancies: vacancy[] = [
     {
         id: 8,
         featured_tier: 1,
-        visit_count: 0,
+        visit_count: 341,
         reports: [],
         has_image: true,
         advertiser: 'Zup',
@@ -258,7 +258,7 @@ export const vacancies: vacancy[] = [
     {
         id: 9,
         featured_tier: 1,
-        visit_count: 0,
+        visit_count: 66,
         reports: [],
         has_image: true,
         advertiser: 'Azship',
@@ -276,7 +276,7 @@ export const vacancies: vacancy[] = [
     {
         id: 10,
         featured_tier: 1,
-        visit_count: 0,
+        visit_count: 113,
         reports: [],
         has_image: true,
         advertiser: 'TQI',
@@ -315,23 +315,23 @@ export const vacancies: vacancy[] = [
 export const events: event[] = [
     {
         id: 1,
-        featured_tier: 1,
-        visit_count: 0,
+        featured_tier: 2,
+        visit_count: 132,
         reports: [],
         date: new Date(2024, 8, 10),
         has_image: true,
         advertiser: 'UberHub',
         link: 'https://www.youtube.com/watch?v=w8VheDdkCuQ',
         tags: [
-            'podcast',
-            'uberhub',
+            'Podcast',
+            'UberHub',
             'X-ECOMM'
         ],
         state: 'accepted',
         name: 'UberHub Podcast com organizadores do evento X-ECOMM',
         days: [
             {
-                start: new Date(2024, 7, 19, 16, 30, 0, 0),
+                start: new Date(2024, 8, 13, 17, 30, 0, 0),
                 end: undefined
             }
         ],
@@ -340,16 +340,16 @@ export const events: event[] = [
     },
     {
         id: 2,
-        featured_tier: 2,
-        visit_count: 0,
+        featured_tier: 1,
+        visit_count: 91,
         reports: [],
         date: new Date(2024, 8, 11),
         has_image: true,
         advertiser: 'ACIUB',
         link: 'https://eventos.superasistemas.com.br/e/checkout/kdqA5vm2oCUD#!',
         tags: [
-            'conexão',
-            'negócios',
+            'Conexão',
+            'Negócios',
             'Aciub'
 
         ],
@@ -357,7 +357,7 @@ export const events: event[] = [
         name: '3ª edição Conexão de Negócios - Aciub Jovem',
         days: [
             {
-                start: new Date(2024, 7, 21, 6, 30, 0, 0),
+                start: new Date(2024, 7, 21, 7, 30, 0, 0),
                 end: undefined
             }
         ],
@@ -367,35 +367,38 @@ export const events: event[] = [
     {
         id: 3,
         featured_tier: 2,
-        visit_count: 0,
+        visit_count: 312,
         reports: [],
         date: new Date(2024, 8, 12),
         has_image: true,
-        advertiser: 'Catsu',
-        link: 'https://www.ingressolive.com/catsu-2024',
+        advertiser: 'Sankhya',
+        link: 'https://sankhyaconnection.com.br',
         tags: [
-            'geek',
-            'cultura pop'
+            'Gestão Corporativa',
+            'Tecnologia',
+            'Negócios',
+            'Recursos Humanos',
+            'Vendas',
+            'Indústria',
+            'Serviços',
+            'Logística'
+
         ],
         state: 'accepted',
-        name: 'Catsu 2024 - O maior evento de cultura geek de Minas Gerais',
+        name: 'Sankhya Connection 2024',
         days: [
             {
-                start: new Date(2024, 7, 24, 9, 0, 0, 0),
-                end: new Date(2024, 7, 24, 18, 0, 0, 0)
-            },
-            {
-                start: new Date(2024, 7, 25, 9, 0, 0, 0),
-                end: new Date(2024, 7, 25, 18, 0, 0, 0)
+                start: new Date(2024, 8, 24, 8, 0, 0, 0),
+                end: new Date(2024, 8, 24, 22, 0, 0, 0)
             }
         ],
         type: 'presencial',
-        adress: 'Castelli Eventos'
+        adress: 'Transamerica Expo Center'
     },
     {
         id: 4,
         featured_tier: 1,
-        visit_count: 0,
+        visit_count: 105,
         reports: [],
         date: new Date(2024, 8, 13),
         has_image: false,
@@ -412,7 +415,7 @@ export const events: event[] = [
         name: 'O impacto da IA generativa nas estratégias de marketing e vendas',
         days: [
             {
-                start: new Date(2024, 7, 26, 18, 0, 0, 0),
+                start: new Date(2024, 7, 26, 19, 0, 0, 0),
                 end: undefined
             }
         ],
@@ -422,7 +425,7 @@ export const events: event[] = [
     {
         id: 5,
         featured_tier: 3,
-        visit_count: 0,
+        visit_count: 240,
         reports: [],
         date: new Date(2024, 8, 14),
         has_image: true,
@@ -438,13 +441,65 @@ export const events: event[] = [
         name: 'X-ECOMM Marketplaces - tudo que você precisa saber para vender nos marketplaces',
         days: [
             {
-                start: new Date(2024, 7, 27, 17, 30, 0, 0),
+                start: new Date(2024, 7, 27, 18, 30, 0, 0),
                 end: undefined
             }
         ],
         type: 'presencial',
         adress: 'R. Izaú Rangel de Mendonça, 20 - Santa Mônica, Uberlândia - MG, 38408-136, Brasil'
-    }
+    },
+    {
+        id: 6,
+        featured_tier: 1,
+        visit_count: 194,
+        reports: [],
+        date: new Date(2024, 8, 14),
+        has_image: true,
+        advertiser: 'MB Summit Brazil',
+        link: 'https://doity.com.br/devfest-triangulo-2024',
+        tags: [
+            'Congresso',
+            'Imobiliário',
+            'Inovação',
+            'tecnologia'
+        ],
+        state: 'accepted',
+        name: 'MB Summit Uberlândia 2024',
+        days: [
+            {
+                start: new Date(2024, 9, 24, 8, 0, 0, 0),
+                end: new Date(2024, 9, 24, 20, 0, 0, 0)
+            }
+        ],
+        type: 'presencial',
+        adress: 'Condomínio Edifício Ilha Bella Residence'
+    },
+    {
+        id: 7,
+        featured_tier: 1,
+        visit_count: 176,
+        reports: [],
+        date: new Date(2024, 8, 14),
+        has_image: true,
+        advertiser: 'GDG Uberlândia',
+        link: 'https://doity.com.br/devfest-triangulo-2024',
+        tags: [
+            'troca de experiências',
+            'aprendizado',
+            'networking',
+            'tecnologia'
+        ],
+        state: 'accepted',
+        name: 'Google Devfest Uberlândia',
+        days: [
+            {
+                start: new Date(2024, 10, 2, 8, 0, 0, 0),
+                end: new Date(2024, 10, 2, 18, 0, 0, 0)
+            }
+        ],
+        type: 'presencial',
+        adress: 'Gaudium Hall'
+    },
 ]
 
 export const vacancy_tags: string[] = [...new Set(vacancies.map((a) => a.tags).flat())].sort()

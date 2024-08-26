@@ -9,14 +9,15 @@ import { event, eventfilterData, orderOption } from "../_lib/definitions";
 import { useSearchParams } from "next/navigation";
 
 export default function Home() {
-    const name = useSearchParams().get('name')
-    const [eventSearch, setEventSearch] = useState<string>(name ? name : '')
+    const id = parseInt(useSearchParams().get('id') || '-1')
+    const [eventSearch, setEventSearch] = useState<string>('')
     const [tagArr, setTagArr] = useState<string[]>([])
     const [orderBy, setOrderBy] = useState<orderOption>(eventOrderOptions[0])
     const [orderBool, setOrderBool] = useState<boolean>(false)
     const [types, setTypes] = useState<string[]>([])
     const [dateStart, setDateStart] = useState<Date | undefined>()
     const [dateEnd, setDateEnd] = useState<Date | undefined>()
+    const [relatorios, setRelatorios] = useState<boolean>(false)
 
     const filterData: eventfilterData = {
         tags: tagArr,
@@ -36,8 +37,18 @@ export default function Home() {
     return (
         <main className="w-full min-h-[100dvh] flex justify-center">
             <div className='w-[70%] flex flex-col gap-2'>
-                <div className="w-full text-3xl font-bold text-zinc-800 p-2 px-4 bg-[#fafafa] rounded shadow mt-4">
-                    Eventos
+                <div className="w-full text-3xl font-bold text-zinc-800 p-2 px-6 bg-[#fafafa] rounded shadow mt-4 flex justify-between">
+                    <a href="/eventos" className="w-full h-full">
+                        Eventos
+                    </a>
+                    <Image
+                        src='/svg/reports.svg'
+                        alt=''
+                        height={25}
+                        width={25}
+                        onClick={() => { setRelatorios(!relatorios) }}
+                        className="cursor-pointer"
+                    />
                 </div>
                 <div className="w-full flex gap-2">
                     <div className="w-[70%] h-fit flex flex-col gap-2">
@@ -69,13 +80,14 @@ export default function Home() {
                         </div>
                         {
                             events.filter(e => e.state === 'accepted')
-                                .filter(e => (dateStart === undefined || dateEnd === undefined) || e.days.some(day => (day.start >= dateStart && day.start <= dateEnd) || (day.end == undefined || day.end >= dateStart && day.end <= dateEnd)))
+                                .filter(ev => id == -1 || ev.id == id)
+                                .filter(ev => (dateStart == undefined || dateEnd == undefined) || (dateStart > dateEnd) || ev.days.some(day => (day.start >= dateStart && day.start <= dateEnd)))
                                 .filter(ev => types.length === 0 || types.includes(ev.type))
                                 .filter(ev => ev.advertiser.toLowerCase().includes(eventSearch.toLowerCase()) || ev.name.toLowerCase().includes(eventSearch.toLowerCase()))
                                 .filter(ev => tagArr.length === 0 || tagArr.some(t => ev.tags.includes(t))).
                                 sort((a: event, b: event) => (a.days[0].start > b.days[0].start) ? -1 : (a.days[0].start < b.days[0].start) ? 1 : 0)
                                 .sort(
-                                        (a: event, b: event) => { 
+                                    (a: event, b: event) => {
                                         let key = orderBy.value as keyof event
                                         if (orderBy.value == 'date') {
                                             if (orderBool) {
@@ -83,12 +95,9 @@ export default function Home() {
                                             }
                                             return (a.days[0].start > b.days[0].start) ? -1 : (a.days[0].start < b.days[0].start) ? 1 : 0
                                         }
-                                        if (orderBool) {
-                                            return ((a[key] || '') < (b[key] || '')) ? -1 : ((a[key] || '') > (b[key] || '')) ? 1 : 0
-                                        } 
-                                        return ((a[key] || '') > (b[key] || '')) ? -1 : ((a[key] || '') < (b[key] || '')) ? 1 : 0 
+                                        return ((a[key] || '') > (b[key] || '')) ? -1 : ((a[key] || '') < (b[key] || '')) ? 1 : 0
                                     })
-                                .map(ev => (<EventCard event={ev} search={eventSearch.toLowerCase()} shadow />))
+                                .map(ev => (<EventCard event={ev} search={eventSearch.toLowerCase()} show_data={relatorios} />))
                         }
                     </div>
                     <FilterCard data={filterData} />

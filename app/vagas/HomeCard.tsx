@@ -4,7 +4,7 @@ import { formatDate } from "../_lib/utils"
 
 export default function VacancyHomeCard({ vacancy }: { vacancy: vacancy }) {
     return (
-        <a href={`/vagas?advertiser=${vacancy.advertiser}`} className="cursor-pointer w-full">
+        <a href={`/vagas?id=${vacancy.id}`} className="cursor-pointer w-full">
             <div className="bg-[#fafafa] w-full rounded px-8 py-5 hover:shadow-xl transition ease-out duration-200">
             <div className="flex gap-2">
                 {

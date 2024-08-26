@@ -88,11 +88,12 @@ export default function Home() {
                 <div className="flex flex-wrap gap-1 h-fit w-full">
                     <div className="w-[49.8%] flex-grow flex gap-1 bg-[#e8edf3] rounded-lg p-8 shadow-lg mb-1">
                         <div className="flex flex-col gap-1 w-full font-bold text-xl">
-                            <div className="w-full mb-1 rounded bg-[#fefefe] py-1 px-2 flex justify-between">
-                                Vagas
-                                <a className="py-1 px-2 rounded text-[#5000b7] text-sm" href="/vagas">ver mais</a>
-                            </div>
-                            
+                            <a href="/vagas">
+                                <div className="w-full mb-1 rounded bg-[#fefefe] py-1 px-3 flex justify-between hover:shadow-lg transition ease-out duration-200">
+                                    Vagas
+                                    <div className="py-1 px-2 rounded text-[#5000b7] text-sm">ver mais</div>
+                                </div>
+                            </a>
                             {vacancies.sort((a: vacancy, b: vacancy) => (
                                 a.date < b.date ? -1 : a.date > b.date ? 1 : 0
                             )).sort((a: vacancy, b: vacancy) => (
@@ -102,10 +103,12 @@ export default function Home() {
                     </div>
                     <div className="w-[49.8%] flex-grow flex gap-1 bg-[#e8edf3] rounded-lg p-8 shadow-lg mb-1">
                         <div className="flex flex-col gap-1 w-full font-bold text-xl">
-                            <div className="w-full mb-1 rounded bg-[#fefefe] py-1 px-2 flex justify-between">
-                                Eventos
-                                <a className="py-1 px-2 rounded text-[#5000b7] text-sm" href="/eventos">ver mais</a>
-                            </div>
+                            <a href="/eventos">
+                                <div className="w-full mb-1 rounded bg-[#fefefe] py-1 px-3 flex justify-between hover:shadow-lg transition ease-out duration-200">
+                                    Eventos
+                                    <div className="py-1 px-2 rounded text-[#5000b7] text-sm">ver mais</div>
+                                </div>
+                            </a>
                             {events.sort((a: event, b: event) => (
                                 a.date < b.date ? -1 : a.date > b.date ? 1 : 0
                             )).sort((a: event, b: event) => (

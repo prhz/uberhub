@@ -5,10 +5,10 @@ import { vacancy } from '../_lib/definitions'
 import { formatDate } from '../_lib/utils'
 import { useState } from 'react'
 
-export default function VacancyCard({ vacancy, search, shadow }: { vacancy: vacancy, search: string, shadow: boolean }) {
+export default function VacancyCard({ vacancy, search, show_data }: { vacancy: vacancy, search: string, show_data: boolean }) {
     const [reported, setReported] = useState<boolean>(false)
     return (
-        <div id={vacancy.advertiser} className={`w-[100%] bg-[#FAFAFA] rounded-md ${shadow && 'shadow'} flex flex-grow`}>
+        <div id={vacancy.advertiser} className={`w-[100%] bg-[#FAFAFA] rounded-md shadow flex flex-grow`}>
             <div className='w-2 rounded-l bg-[#5000b7]'></div>
             <div className='px-8 py-6 w-full'>
                 <div className="flex justify-between items-center mb-2">
@@ -72,13 +72,13 @@ export default function VacancyCard({ vacancy, search, shadow }: { vacancy: vaca
                     }
                     <div className='flex items-center gap-2'>
                         <abbr title="Sinalizar erro no post">
-                            <Image 
-                                width={25} 
-                                height={25} 
-                                src='/svg/flag.svg' 
-                                alt='' 
-                                className={`cursor-pointer ${ reported ? '' : 'grayscale' } hover:grayscale-0 transition ease-out duration-200 rounded-full`}
-                                onClick={() => { 
+                            <Image
+                                width={25}
+                                height={25}
+                                src='/svg/flag.svg'
+                                alt=''
+                                className={`cursor-pointer ${reported ? '' : 'grayscale'} hover:grayscale-0 transition ease-out duration-200 rounded-full`}
+                                onClick={() => {
                                     if (reported) {
                                         vacancy.reports.pop()
                                         setReported(false)
@@ -86,7 +86,7 @@ export default function VacancyCard({ vacancy, search, shadow }: { vacancy: vaca
                                     }
                                     vacancy.reports.push('err')
                                     setReported(true)
-                                 }} 
+                                }}
                             />
                         </abbr>
                         <a href={vacancy.link} target="_blank" className="" onClick={() => { vacancy.visit_count++ }}>
@@ -97,6 +97,11 @@ export default function VacancyCard({ vacancy, search, shadow }: { vacancy: vaca
                     </div>
                     
                 </div>
+                {show_data && (
+                    <div className='w-full text-center bg-zinc-200 rounded font-semibold text-sm mt-3 text-zinc-800'>
+                        {vacancy.visit_count} visitas em {new Date().getDate() - vacancy.date.getDate()} dias no ar. Média de aprox {(vacancy.visit_count / (new Date().getDate() - vacancy.date.getDate())).toFixed(0)} visitas/dia
+                    </div>
+                )}
             </div>
         </div>
     )

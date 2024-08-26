@@ -112,7 +112,7 @@ export default function FilterCard({ data }: { data: vacfilterData }) {
                             }
                             onClick={() => {
                                 if (op.name === data.orderBy.name) return
-                                data.setOrderBy(op)
+                                data.setOrderBy(op); data.setOrderBool(false)
                             }}
                         >
                             {op.name}
@@ -122,7 +122,7 @@ export default function FilterCard({ data }: { data: vacfilterData }) {
             </div>
             <div className="w-full h-[1px] bg-zinc-400 my-3"></div>
             <div
-                className="flex flex-col gap-1 text-zinc-800 font-bold"
+                className="flex flex-col gap-1 text-zinc-800 font-semibold"
             >
                 Anunciantes
                 {

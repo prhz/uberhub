@@ -3,10 +3,11 @@ import { event } from '../_lib/definitions'
 import Image from 'next/image'
 import { calendarLink } from '../_lib/utils'
 
-export default function EventCard({ event, search, shadow }: { event: event, search: string, shadow: boolean }) {
+export default function EventCard({ event, search, show_data }: { event: event, search: string, show_data: boolean }) {
     const [reported, setReported] = useState<boolean>(false)
+    
     return (
-        <div className={`text-zinc-800 bg-[#fafafa] rounded w-full flex ${shadow && 'shadow'} flex-grow ${(event.days[event.days.length - 1].start < new Date()) && 'brightness-95'}`}>
+        <div className={`text-zinc-800 bg-[#fafafa] rounded w-full flex shadow flex-grow ${(event.days[event.days.length - 1].start < new Date()) && 'brightness-95'}`}>
             <div className='h-full w-2 rounded-l bg-[#5000b7]'></div>
             <div className='px-8 py-6 w-full'>
                 <div className='flex justify-between mb-2'>
@@ -54,7 +55,7 @@ export default function EventCard({ event, search, shadow }: { event: event, sea
                         event.days.map((day, index) => (
                             <div key={index + 1} className='text-sm rounded bg-[#EBEBEB] pr-2 min-h-6 h-fit w-full text-zinc-800 flex gap-1 items-center'>
                                 <div className="h-6 w-1 bg-[#5000b7] rounded-l"></div>
-                                {`${day.start.getDate().toString().padStart(2, '0')}/${(day.start.getMonth() + 1).toString().padStart(2, '0')}/${day.start.getFullYear()} (${(day.start.getHours() + 1).toString().padStart(2, '0')}:${day.start.getMinutes().toString().padStart(2, '0')}h${(day.end != undefined) ? ` - ${day.end?.getHours().toString().padStart(2, '0')}:${day.end?.getMinutes().toString().padStart(2, '0')}h` : ''})`}
+                                {`${day.start.getDate().toString().padStart(2, '0')}/${(day.start.getMonth() + 1).toString().padStart(2, '0')}/${day.start.getFullYear()} (${(day.start.getHours()).toString().padStart(2, '0')}:${day.start.getMinutes().toString().padStart(2, '0')}h${(day.end != undefined) ? ` - ${(day.end?.getHours()).toString().padStart(2, '0')}:${day.end?.getMinutes().toString().padStart(2, '0')}h` : ''})`}
                             </div>
                         ))
                     }
@@ -110,6 +111,11 @@ export default function EventCard({ event, search, shadow }: { event: event, sea
                         </a>
                     </div>
                 </div>
+                {show_data && (
+                    <div className='w-full text-center bg-zinc-200 rounded font-semibold text-sm mt-3'>
+                        {event.visit_count} visitas em {new Date().getDate() - event.date.getDate()} dias no ar. Média de aprox {(event.visit_count / (new Date().getDate() - event.date.getDate())).toFixed(0)} visitas/dia
+                    </div>
+                )}
             </div>
         </div>
     )
